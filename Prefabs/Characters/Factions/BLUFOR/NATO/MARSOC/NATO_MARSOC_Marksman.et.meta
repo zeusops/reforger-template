@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F8700BF13DB0CDDE}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/NATO_MARSOC_Marksman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

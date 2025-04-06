@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{A52AFB54A7B9353E}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/MC/NATO_MARSOC_MC_Baseloadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Medic"
+    Icon "{F3FCC3B9732551D9}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Medic.edds"
+    m_aAutoLabels {
+     122 44
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64E6D21340EADF53}" {
+     PrefabsToSpawn + {
+      "{4C0A71BEA067E0D1}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_NATO.et"
+     }
+    }
+   }
+  }
+ }
+}

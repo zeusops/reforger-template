@@ -1,0 +1,60 @@
+GenericEntity : "{7C367E9261376345}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5D06E95D3BF135DB}" {
+   "faction affiliation" "NATO"
+  }
+  SCR_EditableEntityComponent "{633A0E2F39B16554}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{633A0E2F3F33C563}" {
+    Name "Armory"
+    Icon "{824477FA49F8A432}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal_Ammo.edds"
+    m_Image "{166E4F83B61B27C8}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_US_01.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     7 280 -1889967296
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5D06E957D858060A"
+   {
+    GenericEntity {
+     ID "5D371ACBE97B9E1F"
+     components {
+      SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+       "faction affiliation" "NATO"
+      }
+      SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+       m_aDisabledResourceTypes {
+        0
+       }
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D06E957D85806FB"
+   {
+    GenericEntity {
+     ID "5D371ACBFA947460"
+     components {
+      SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+       m_eSupportedArsenalItemTypes 654528
+      }
+      SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+       "faction affiliation" "NATO"
+      }
+      SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+       m_aDisabledResourceTypes {
+        0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

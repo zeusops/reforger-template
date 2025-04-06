@@ -1,0 +1,47 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{6494CE72573E7688}" {
+   m_sLoadoutName "Rifleman"
+   m_sLoadoutResource "{F512CB230EBBE102}Prefabs/Characters/Factions/BLUFOR/NATO/USMC/Desert/NATO_USMC_D_Rifleman.et"
+   m_sLoadoutImage "{2B0877799B9B6C66}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Rifleman.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+  SCR_FactionPlayerLoadout "{6494CE72573E76F8}" {
+   m_sLoadoutName "Medic"
+   m_sLoadoutResource "{75A511F90BD98757}Prefabs/Characters/Factions/BLUFOR/NATO/USMC/Desert/NATO_USMC_D_Medic.et"
+   m_sLoadoutImage "{8D3E9B959DCE2B60}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Medic.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+  SCR_FactionPlayerLoadout "{6494CE72573E76FF}" {
+   m_sLoadoutName "Autorifleman"
+   m_sLoadoutResource "{DC15BE4F57AF895B}Prefabs/Characters/Factions/BLUFOR/NATO/USMC/Desert/NATO_USMC_D_AR.et"
+   m_sLoadoutImage "{D68798DF09F5BE8E}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_MG.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+  SCR_FactionPlayerLoadout "{6494CE72573E76E3}" {
+   m_sLoadoutName "Anti Tank"
+   m_sLoadoutResource "{E839001169774034}Prefabs/Characters/Factions/BLUFOR/NATO/USMC/Desert/NATO_USMC_D_AT.et"
+   m_sLoadoutImage "{278C426C1D3B4C27}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_LAT.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+  SCR_FactionPlayerLoadout "{64E0E37F4FFEB918}" {
+   m_sLoadoutName "Marksman"
+   m_sLoadoutResource "{A7A93670863B2C15}Prefabs/Characters/Factions/BLUFOR/NATO/USMC/Desert/NATO_USMC_D_Marksman.et"
+   m_sLoadoutImage "{13AC78F098028758}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Sniper.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+  SCR_FactionPlayerLoadout "{6494CE72573E76E4}" {
+   m_sLoadoutName "Squad Lead"
+   m_sLoadoutResource "{5D1998CF227AFC7B}Prefabs/Characters/Factions/BLUFOR/NATO/USMC/Desert/NATO_USMC_D_SL.et"
+   m_sLoadoutImage "{34E9DBD5693E1B7F}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_TL.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+  SCR_PlayerArsenalLoadout "{6494CE72573E76E6}" {
+   m_sLoadoutName "Saved Loadout"
+   m_sLoadoutResource "{836E7E39AAC5888B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Base.et"
+   m_sLoadoutImage "{2B0877799B9B6C66}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Rifleman.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+ }
+}

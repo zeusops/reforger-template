@@ -1,0 +1,44 @@
+$grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+ {
+  coords 1344.71 8.406 1833.155
+  angleY 10.612
+ }
+ {
+  coords 1341.475 8.779 1820.692
+  angleY 10.612
+ }
+ {
+  coords 1336.995 8.649 1822.748
+  angleY 10.612
+ }
+ {
+  coords 1332.256 8.742 1824.496
+  angleY 10.612
+ }
+ {
+  coords 1335.904 8.381 1835.582
+  angleY 10.612
+ }
+}
+GenericEntity : "{74EF3F7B90C793AF}Prefabs/Structures/Military/Training/TargetVehicles/TargetUral_flank.et" {
+ coords 1326.749 8.588 1830.41
+ angleY 12.955
+}
+GenericEntity : "{94803C603CF5651B}Prefabs/Structures/Military/Training/TargetVehicles/TargetBTR_flank.et" {
+ coords 1350.467 8.5 1826.715
+ angleY 13.108
+}
+$grp GenericEntity : "{C0D8E695B0022C8D}Prefabs/Props/Military/Compositions/NATO/ArsenalBox_NATO_Weapons.et" {
+ {
+  coords 1357.616 10.219 1881.842
+  angleY -173.13
+ }
+ {
+  coords 1361.042 10.219 1881.046
+  angleY -173.13
+ }
+ {
+  coords 1364.255 10.219 1880.199
+  angleY -173.13
+ }
+}

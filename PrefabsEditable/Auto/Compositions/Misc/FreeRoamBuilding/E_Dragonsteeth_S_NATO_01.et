@@ -1,0 +1,46 @@
+GenericEntity : "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E989985724CC0DD}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_Dragontooth_01_V1_Name"
+    m_Image "{80BEF7400F938133}UI/Textures/EditorPreviews/Auto/Compositions/Misc/FreeRoamBuilding/E_Dragonsteeth_S_US_01.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     1 -1889967296 108
+    }
+    m_aAutoLabels {
+     121
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{649518D01EB31DA1}" {
+      m_BudgetType CAMPAIGN
+      m_Value 50
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{649518D01EB31DB2}" {
+      m_BudgetType PROPS
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{649518D01EB31D8A}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{649518D01EB31D89}" {
+     m_Prefab "{B08BCB2AD5A57B72}PrefabsEditable/Auto/Structures/Military/Fortifications/E_Dragontooth_01_V1.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  StaticModelEntity {
+   ID "5E64F5E7596006C9"
+   Flags 1048576
+  }
+ }
+}

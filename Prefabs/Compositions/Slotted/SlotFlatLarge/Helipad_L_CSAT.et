@@ -1,0 +1,615 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  RigidBody "{5E96A067A67C5029}" {
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     Extents 25 0.5 25
+    }
+   }
+  }
+  SCR_CampaignBuildingCompositionComponent "{5E96A067C097D570}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{5E96A067C355978C}" {
+    m_sSoundEventName "SOUND_BUILD_VEHICLE_DEPOT"
+   }
+  }
+  SCR_EditableEntityComponent "{64E11B970BDF530D}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{64E11B97089F372D}" {
+    Name "Helipad"
+    Icon "{BFBA42C85CB25019}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Helicopter.edds"
+    m_Image "{9F15FB3BA2FE38D4}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_US_01.edds"
+    m_sFaction "CSAT"
+    m_aAuthoredLabels {
+     -1891967296 7 260
+    }
+   }
+  }
+  ActionsManagerComponent "{5D66ED1096104FD8}" {
+   ActionContexts {
+    UserActionContext "{5D66ED108A2039E0}" {
+     Radius 20
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{5D66ED1086234C38}" {
+     VisibilityRange 20
+    }
+   }
+  }
+  Hierarchy "{64E11B943F999374}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+ {
+  $grp GenericEntity : "{03740F1BD7C816A9}Prefabs/Props/Airport/RunwayLightPortable_01/RunwayLightPortable_01_yellow.et" {
+   {
+    ID "64E11B943F863CD9"
+    components {
+     Hierarchy "{64E11B943F999393}" {
+      Enabled 1
+     }
+    }
+    coords -0.545 0.001 16.658
+    angleY 1.368
+   }
+   {
+    ID "64E11B943F863CDA"
+    components {
+     Hierarchy "{64E11B943F999394}" {
+      Enabled 1
+     }
+    }
+    coords -0.545 0.001 10.879
+    angleY -6.165
+   }
+   {
+    ID "64E11B943F8677C0"
+    components {
+     Hierarchy "{64E11B943F99939A}" {
+      Enabled 1
+     }
+    }
+    coords -0.545 0.001 -14.591
+    angleY 3.172
+   }
+   {
+    ID "64E11B943F8677C1"
+    components {
+     Hierarchy "{64E11B943F99939E}" {
+      Enabled 1
+     }
+    }
+    coords -0.545 0.001 -17.331
+    angleY -178.435
+   }
+   {
+    ID "64E11B943F86F469"
+    components {
+     Hierarchy "{64E11B943F999361}" {
+      Enabled 1
+     }
+    }
+    coords -0.545 0.001 -11.146
+    angleY 3.088
+   }
+   {
+    ID "64E11B943F86F46F"
+    components {
+     Hierarchy "{64E11B943F999367}" {
+      Enabled 1
+     }
+    }
+    coords -0.545 0.001 -19.811
+    angleY -1.211
+   }
+   {
+    ID "64E11B943F878BE7"
+    components {
+     Hierarchy "{64E11B943F999389}" {
+      Enabled 1
+     }
+    }
+    coords -0.545 0.001 13.704
+    angleY -175.776
+   }
+  }
+  GenericEntity : "{303D1F2871E4E4C6}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Storage_Helipad_01.et" {
+   ID "64E11B943F878A11"
+   coords 8.083 0 -7.007
+  }
+  $grp StaticModelEntity : "{38830F6F1297670A}Prefabs/Structures/Military/Camps/AirfieldMatting_01/AirfieldMatting_USSR_01_short.et" {
+   {
+    ID "64E11B943F84D047"
+    components {
+     Hierarchy "{64E11B943F9993BE}" {
+      Enabled 1
+     }
+    }
+    coords -10.23 0 0.888
+    angleY 48.384
+   }
+   {
+    ID "64E11B943F873F0C"
+    components {
+     Hierarchy "{64E11B943F9993BC}" {
+      Enabled 1
+     }
+    }
+    coords -12.505 0 5.49
+    angleY 92.796
+   }
+   {
+    ID "64E11B943F873F0D"
+    components {
+     Hierarchy "{64E11B943F9993BB}" {
+      Enabled 1
+     }
+    }
+    coords -12.36 0 10.842
+    angleY 92.796
+   }
+   {
+    ID "64E11B943F876B72"
+    components {
+     Hierarchy "{64E11B943F999386}" {
+      Enabled 1
+     }
+    }
+    coords 11.127 0 -3.104
+    angleY -90
+   }
+   {
+    ID "64E11B943F878A17"
+    components {
+     Hierarchy "{64E11B943F999385}" {
+      Enabled 1
+     }
+    }
+    coords 10.86 0 -8.462
+    angleY -84.717
+   }
+  }
+  GenericEntity : "{540DB055F56C9310}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Vehicle_USSR.et" {
+   ID "64E11B943F84D05A"
+   components {
+    Hierarchy "{64E11B943F9993B2}" {
+     Enabled 1
+    }
+   }
+   coords 9.771 0.001 -5.152
+   angleX -0.601
+   angleY 105.612
+   angleZ 1.096
+  }
+  GenericEntity : "{6096089D97076F43}Prefabs/Structures/Signs/Military/Sign_FuelStorage_USSR_01.et" {
+   ID "64E11B943F84D05E"
+   components {
+    Hierarchy "{64E11B943F9993B7}" {
+     Enabled 1
+    }
+   }
+   coords -10.08 0 5.921
+   angleY 107.562
+  }
+  $grp GenericEntity : "{6CD65604C7945A66}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_03.et" {
+   {
+    ID "64E11B943F84D052"
+    coords 9.827 0 -6.737
+    angleY 77.065
+   }
+   {
+    ID "64E11B943F84D054"
+    coords -10.362 0 7.624
+   }
+  }
+  $grp GenericEntity : "{6FD54E69CFDD6B07}Prefabs/Props/Industrial/BarrelFuel_01_closed_old.et" {
+   {
+    ID "64E11B943F846F1F"
+    components {
+     Hierarchy "{64E11B943F9993A2}" {
+      Enabled 1
+     }
+    }
+    coords -10.551 0 -9.58
+    angleY -152.964
+   }
+   {
+    ID "64E11B943F847E5C"
+    components {
+     Hierarchy "{64E11B943F9993DB}" {
+      Enabled 1
+     }
+    }
+    coords -10.746 0 5.947
+    angleY -70.915
+   }
+   {
+    ID "64E11B943F847E5F"
+    components {
+     Hierarchy "{64E11B943F9993A7}" {
+      Enabled 1
+     }
+    }
+    coords -9.477 0 8.748
+    angleY -124.612
+   }
+   {
+    ID "64E11B943F849AA2"
+    components {
+     Hierarchy "{64E11B943F9993AD}" {
+      Enabled 1
+     }
+    }
+    coords -10.224 0 -10.178
+    angleY -152.964
+   }
+   {
+    ID "64E11B943F849AA3"
+    components {
+     Hierarchy "{64E11B943F9993A1}" {
+      Enabled 1
+     }
+    }
+    coords 8.716 0.333 -8.698
+    angleX -75.985
+    angleY -178.804
+    angleZ -91.798
+   }
+   {
+    ID "64E11B943F84D068"
+    components {
+     Hierarchy "{64E11B943F9993AB}" {
+      Enabled 1
+     }
+    }
+    coords 7.714 0 8.804
+    angleY -55.678
+   }
+   {
+    ID "64E11B943F850F02"
+    components {
+     Hierarchy "{64E11B943F9993D6}" {
+      Enabled 1
+     }
+    }
+    coords -9.895 0 -9.622
+    angleY -66.217
+   }
+   {
+    ID "64E11B943F8594C4"
+    components {
+     Hierarchy "{64E11B943F9993D3}" {
+      Enabled 1
+     }
+    }
+    coords 8.749 0 -5.909
+   }
+   {
+    ID "64E11B943F8594C5"
+    components {
+     Hierarchy "{64E11B943F9993D5}" {
+      Enabled 1
+     }
+    }
+    coords 9.458 0 -5.826
+    angleY 65.593
+   }
+   {
+    ID "64E11B943F85EDAA"
+    components {
+     Hierarchy "{64E11B943F9993DC}" {
+      Enabled 1
+     }
+    }
+    coords 8.684 0.333 -8.02
+    angleX -65.593
+    angleZ 90
+   }
+  }
+  GenericEntity : "{7BDAD0F4A6195C01}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair_Helipad_BoundingBox.et" {
+   ID "64E11B943F850F09"
+   components {
+    SCR_ResourceComponent "{5DACF52CF6D4A1C9}" {
+     m_aDisabledResourceTypes {
+      0
+     }
+    }
+   }
+   coords 0 0 0
+  }
+  GenericEntity : "{7D924049158F953A}Prefabs/Props/Military/Compositions/USSR/FuelService_USSR_Large.et" {
+   ID "64E11B943F850F0C"
+   components {
+    SCR_FactionAffiliationComponent "{5CB8A6AD6CA2D332}" {
+     "faction affiliation" "CSAT"
+    }
+    Hierarchy "{64E11B943F9993CB}" {
+    }
+   }
+   coords -9.866 -0.01 0.557
+   angleY -180
+  }
+  GenericEntity : "{8751F77B1038FC72}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_large.et" {
+   ID "64E11B943F850F11"
+   components {
+    Hierarchy "{64E11B943F9993CC}" {
+     Enabled 1
+    }
+   }
+   coords 6.484 0 9.364
+   angleY 82.082
+  }
+  $grp GenericEntity : "{894A1AFDCB71CD0D}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_02.et" {
+   {
+    ID "64E11B943F850F10"
+    coords -11.356 0 2.383
+    angleY 32.028
+   }
+   {
+    ID "64E11B943F850F12"
+    coords 8.483 0 7.96
+    angleY 53.149
+   }
+   {
+    ID "64E11B943F850F13"
+    coords -10.327 0 -7.787
+    angleY -16.285
+   }
+  }
+  GenericEntity : "{92BE346D5E0BD792}Prefabs/Props/Military/Fuel/MobileWaterTank_USSR_01_fuel.et" {
+   ID "64E11B943F850F14"
+   components {
+    Hierarchy "{64E11B943F9993C1}" {
+     Enabled 1
+    }
+   }
+   coords -9.253 0 9.773
+   angleY 109.639
+  }
+  $grp StaticModelEntity : "{9E6FBD09BCBE2CA0}Prefabs/Structures/Military/Camps/AirfieldMatting_01/AirfieldMatting_USSR_01_long.et" {
+   {
+    ID "64E11B943F850F16"
+    components {
+     Hierarchy "{64E11B943F9993C4}" {
+      Enabled 1
+     }
+    }
+    coords 11.067 0 -5.657
+    angleY -87.365
+   }
+   {
+    ID "64E11B943F850F17"
+    components {
+     Hierarchy "{64E11B943F9993C2}" {
+      Enabled 1
+     }
+    }
+    coords 11.509 0 -7.54
+    angleY -84.806
+   }
+   {
+    ID "64E11B943F98DC7C"
+    components {
+     Hierarchy "{64E11B943F9993EC}" {
+      Enabled 1
+     }
+    }
+    coords -11.869 0 2.954
+    angleY 52.928
+   }
+   {
+    ID "64E11B943F98F53E"
+    components {
+     Hierarchy "{64E11B943F9993EE}" {
+      Enabled 1
+     }
+    }
+    coords -12.907 0 9.909
+    angleY 91.996
+   }
+   {
+    ID "64E11B943F9A26AC"
+    components {
+     Hierarchy "{64E11B943F9993FE}" {
+      Enabled 1
+     }
+    }
+    coords -13.009 0 6.387
+    angleY 91.996
+   }
+   {
+    ID "64E11B943F9A4221"
+    components {
+     Hierarchy "{64E11B943F9993FD}" {
+      Enabled 1
+     }
+    }
+    coords 11.661 0 -3.964
+    angleY -89.495
+   }
+   {
+    ID "64E11B943F9A422E"
+    components {
+     Hierarchy "{64E11B943F9993FB}" {
+      Enabled 1
+     }
+    }
+    coords 10.362 0 -7.45
+    angleY -83.417
+   }
+   {
+    ID "64E11B943F9AE851"
+    components {
+     Hierarchy "{64E11B943F9993F9}" {
+      Enabled 1
+     }
+    }
+    coords 10.559 0 -3.878
+    angleY -88.781
+   }
+   {
+    ID "64E11B943F9B13CE"
+    components {
+     Hierarchy "{64E11B943F9993EB}" {
+      Enabled 1
+     }
+    }
+    coords -10.974 0 2.697
+    angleY 52.817
+   }
+   {
+    ID "64E11B943F9B5924"
+    components {
+     Hierarchy "{64E11B943F9993F4}" {
+      Enabled 1
+     }
+    }
+    coords -11.801 0 9.803
+    angleY 93.551
+   }
+   {
+    ID "64E11B943F9B5925"
+    components {
+     Hierarchy "{64E11B943F9993E9}" {
+      Enabled 1
+     }
+    }
+    coords -11.922 0 6.263
+    angleY 91.448
+   }
+   {
+    ID "64E11B943F9BFE4C"
+    components {
+     Hierarchy "{64E11B943F9993F3}" {
+      Enabled 1
+     }
+    }
+    coords -12.437 0 8.065
+    angleY 90.879
+   }
+  }
+  StaticModelEntity : "{B00E14C07DEE788A}Prefabs/Compositions/Misc/SubCompositions/Utility/Helipad_Lights_USSR_01.et" {
+   ID "64E11B943F98F53A"
+   coords -0.462 0 0
+  }
+  GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
+   ID "64E11B943F98F543"
+   coords -10.755 0 7.601
+  }
+  $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+   {
+    ID "64E11B943F98117E"
+    components {
+     Hierarchy "{64E11B943F998C1E}" {
+      Enabled 1
+     }
+    }
+    coords -11.132 0.312 6.189
+    angleX -4.077
+    angleY -22.249
+    angleZ -72.337
+   }
+   {
+    ID "64E11B943F98117F"
+    components {
+     Hierarchy "{64E11B943F998C1A}" {
+      Enabled 1
+     }
+    }
+    coords 9.478 0 -7.607
+    angleY 4.045
+   }
+   {
+    ID "64E11B943F985F7E"
+    components {
+     Hierarchy "{64E11B943F998C18}" {
+      Enabled 1
+     }
+    }
+    coords 9.516 0 -9.109
+    angleY -8.206
+   }
+   {
+    ID "64E11B943F98F54F"
+    components {
+     Hierarchy "{64E11B943F9993E7}" {
+      Enabled 1
+     }
+    }
+    coords 8.993 0 -9.104
+    angleX 3.748
+    angleY 7.377
+    angleZ -26.789
+   }
+   {
+    ID "64E11B943F999350"
+    components {
+     Hierarchy "{64E11B943F998C15}" {
+      Enabled 1
+     }
+    }
+    coords -11.139 0 8.979
+    angleY -175.916
+   }
+   {
+    ID "64E11B943F99966B"
+    components {
+     Hierarchy "{64E11B943F998C13}" {
+      Enabled 1
+     }
+    }
+    coords -10.465 0 9.028
+    angleY 13.881
+   }
+  }
+  GenericEntity : "{DA861447E6D426AE}Prefabs/Props/Industrial/Repair/VehicleGarbage_01_pile_small.et" {
+   ID "64E11B943F999352"
+   components {
+    Hierarchy "{64E11B943F998C16}" {
+     Enabled 1
+    }
+   }
+   coords 7.539 0 9.662
+   angleY -19.289
+  }
+  GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+   ID "64E11B943F999356"
+   components {
+    Hierarchy "{64E11B943F998C0B}" {
+     Enabled 1
+    }
+   }
+   coords -12.083 0 7.378
+   angleY -176.099
+  }
+  GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   ID "64E11B943F999349"
+   components {
+    Hierarchy "{64E11B943F998C0D}" {
+     Enabled 1
+    }
+   }
+   coords -10.523 0 2.437
+   angleY 14.417
+  }
+  GenericEntity : "{FC8BFF421115C2D8}Prefabs/Props/Military/Arsenal/AmmoBoxes/USSR/AmmoBoxArsenal_VehicleGadget_USSR.et" {
+   ID "64E11B943F99934A"
+   components {
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     "faction affiliation" "CSAT"
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     m_aDisabledResourceTypes {
+      0
+     }
+    }
+    Hierarchy "{64E11B943F998C02}" {
+     Enabled 1
+    }
+   }
+   coords -10.352 0 5.238
+   angleY 153.993
+  }
+ }
+}

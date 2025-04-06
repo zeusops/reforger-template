@@ -1,0 +1,55 @@
+GenericEntity : "{ECB8E313DFBD3415}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5D06E95AEE988B60}" {
+   "faction affiliation" "NATO"
+  }
+  SCR_EditableEntityComponent "{645515ECDA603987}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{645515ECD3B4D77A}" {
+    Name "Vehicle Depot Small"
+    Icon "{943873C801ED95B8}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad.edds"
+    m_Image "{B69472E3B538BE09}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatSmall/E_VehicleMaintenance_S_US_01.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     7 260 -1889967296
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5D22B94009C6AE81"
+   components {
+    SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+     Enabled 0
+    }
+    SCR_FactionAffiliationComponent "{5D22B92ED0ABBFD4}" {
+     "faction affiliation" "NATO"
+    }
+    ActionsManagerComponent "{5CB6952C9693C41C}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D45393A2E695E30"
+   components {
+    SCR_ResourceComponent "{5D8AA552F85C2FBB}" {
+     m_aDisabledResourceTypes {
+      0
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6906881D34C0F4"
+   components {
+    SCR_ResourceComponent "{5DACF52CF6D4A1C9}" {
+     m_aDisabledResourceTypes {
+      0
+     }
+    }
+   }
+  }
+ }
+}

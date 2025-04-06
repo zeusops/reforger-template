@@ -1,0 +1,30 @@
+Vehicle : "{6CA46BC65DE861A8}Prefabs/Vehicles/Helicopters/AH6M/AH6M_Armed_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AH6M-Vehicle_AH6M_RKTO_Name"
+    m_Image "{47050FC151A0660F}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/AH6M_RKTO.edds"
+    m_aAutoLabels {
+     11 -1889967296 122
+    }
+   }
+  }
+  WCS_Armament_LoadoutComponent "{629E45AA8C346AFE}" {
+   m_ArmamentGroups {
+    WCS_ArmamentSlotGroup "{629E45B20ABB7153}" {
+     isEnabled 0
+    }
+   }
+  }
+  WeaponSlotComponent "{629E45B26292F4C8}" {
+   Enabled 0
+  }
+  WeaponSlotComponent "{62AD0772FF32B9A3}" {
+   WeaponSlotIndex 0
+  }
+  WeaponSlotComponent "{646543F44D18D178}" {
+   Enabled 0
+  }
+ }
+}

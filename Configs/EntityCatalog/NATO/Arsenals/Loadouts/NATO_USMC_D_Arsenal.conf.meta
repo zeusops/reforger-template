@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{16C4CE075AA294AC}Configs/EntityCatalog/NATO/Arsenals/NATO_USMC_D_Arsenal.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CD66C072CEDD0DBD}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_Rifleman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

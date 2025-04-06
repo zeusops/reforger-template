@@ -1,0 +1,43 @@
+GenericEntity : "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  SCR_FactionAffiliationComponent "{5E3CBEE8057882D8}" {
+   "faction affiliation" "NATO"
+  }
+  SCR_HealSupportStationComponent "{5E68A54C698EFD84}" {
+   m_iSupplyCostDamageHealed 0
+   m_fMaxHealScaled 1
+   m_fServerAddedMaxHealScaled 0.1
+   m_iSuppliesPerDoTHealed 0
+   m_iSupplyCostBloodHealed 0
+  }
+  SCR_ResourceComponent "{5E4A957708B43723}" {
+   m_aContainers {
+    SCR_ResourceContainer "{64A519D4038DA359}" {
+     m_eResourceRights SELF
+     m_eStorageType STORED
+     m_fResourceValueCurrent 1000
+     m_fResourceValueMax 1000
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E4EDEA541710E5E}" {
+     m_fSellMultiplier 20
+    }
+   }
+  }
+  SCR_ResupplyMedicalGadgetSupportStationComponent "{5E3CC26A2C28361C}" {
+   m_iFallbackItemSupplyCost 20
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   additionalActions {
+    SCR_ResupplySelfSupportStationAction "{5E3CC268E10A1B09}" {
+     m_iMaxResupplyCount 5
+    }
+    SCR_ResupplySelfSupportStationAction "{5E3CC268E31927C2}" {
+     m_iMaxResupplyCount 5
+    }
+   }
+  }
+ }
+}

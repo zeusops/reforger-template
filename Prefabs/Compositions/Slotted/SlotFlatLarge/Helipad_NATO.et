@@ -1,0 +1,73 @@
+GenericEntity : "{A13F6A7F82DF031B}Prefabs/Compositions/Slotted/SlotFlatLarge/Helipad_L_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{645515EF5D66A0B4}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{645515EF4111BB8A}" {
+    Name "Helipad"
+    Icon "{BFBA42C85CB25019}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Helicopter.edds"
+    m_Image "{9F15FB3BA2FE38D4}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatLarge/E_Helipad_L_US_01.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     -1889967296 7 260
+    }
+   }
+  }
+  SCR_ResourceComponent "{6152F92926A47D83}" {
+   m_aDisabledResourceTypes {
+    0
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5E64C0FB916EAC83"
+   components {
+    SCR_ResourceComponent "{5E3298BE225F0743}" {
+     m_aDisabledResourceTypes {
+      0
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E64C0FB916EAC93"
+   components {
+    SCR_ResourceComponent "{5E3298BE225F0743}" {
+     m_aDisabledResourceTypes {
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6906884A85A3A3"
+   components {
+    SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+     "faction affiliation" "NATO"
+    }
+    SCR_ResourceComponent "{5E5ABDF371AE8B21}" {
+     m_aDisabledResourceTypes {
+      0
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E69068BD3F68B0C"
+   components {
+    SCR_ResourceComponent "{5DACF52CF6D4A1C9}" {
+     m_aDisabledResourceTypes {
+      0
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6A9384DDD03956"
+   components {
+    SCR_FactionAffiliationComponent "{5CB8A6AD6CA2D332}" {
+     "faction affiliation" "NATO"
+    }
+   }
+  }
+ }
+}

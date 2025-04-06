@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FEAFD162E0DD7F52}Prefabs/Characters/Factions/BLUFOR/NATO/USMC/NATO_USMC_AT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

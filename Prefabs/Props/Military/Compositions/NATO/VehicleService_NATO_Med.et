@@ -1,0 +1,63 @@
+GenericEntity : "{5753634EAFFBA2F6}Prefabs/Props/Military/Compositions/US/VehicleService_US.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+   m_aAvailableTraits {
+    53 54
+   }
+  }
+  SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+   m_fMaxSlotDistance 25
+   m_eType HEAVY_VEHICLE_DEPOT
+   m_eBuildingLabel SERVICE_VEHICLE_DEPOT_HEAVY
+   m_sDelegatePrefab "{D0F4728030717E00}Prefabs/Systems/Services/ServicePointDelegate_VehicleDepotHeavy.et"
+   m_aAllowedLabels {
+    54 53
+   }
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{5D0D0C5A7D014BBF}" {
+     m_eMaterialSoundType METAL_LIGHT
+    }
+   }
+   m_eMaterialSoundType BREAK_METAL
+  }
+  SCR_EditableEntityComponent "{64652D5917E23E79}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{64652D590DE488C6}" {
+    Name "Vehicle Spawn Medium"
+    Icon "{95F49CBE9FF7A0CB}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Apc.edds"
+    m_Image "{CB58D9DCF925F55F}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/US/E_VehicleService_US_Medium.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     7 260 -1889967296
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5D22B92ED0ABBFD4}" {
+   "faction affiliation" "NATO"
+  }
+  SCR_ResourceComponent "{5D7CC617B33EF1CF}" {
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{5DB899358AF453B9}" {
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGeneratorServicePoint "{5DB89935F419B998}" {
+    }
+   }
+   m_aDisabledResourceTypes {
+    0
+   }
+  }
+  ActionsManagerComponent "{5CB6952C9693C41C}" {
+   additionalActions {
+    SCR_CampaignBuildingStartUserAction "{5ED5534E4E40397F}" {
+     UIInfo UIInfo "{5EF88B0BEE450043}" {
+     }
+     m_sActionNameNoSupplies "Spawn Medium Vic"
+    }
+   }
+  }
+ }
+}

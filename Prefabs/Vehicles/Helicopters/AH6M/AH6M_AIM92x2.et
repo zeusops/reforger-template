@@ -1,0 +1,70 @@
+Vehicle : "{6CA46BC65DE861A8}Prefabs/Vehicles/Helicopters/AH6M/AH6M_Armed_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_HelicopterSoundComponent "{5A7CE769E7A9C43E}" {
+   Filenames + {
+    "{C45C3238BFA3D3A9}Sounds/Weapons/Launchers/FIM92_Stinger/Weapons_Launchers_FIM92_Stinger_Lock.acp"
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AH6M-Vehicle_AH6M_AIM92x2_Name"
+    m_Image "{F383286E0DC5025D}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/AH6M_AIM92x2.edds"
+    m_aAutoLabels + {
+     -1889967296
+    }
+   }
+  }
+  WCS_Armament_LoadoutComponent "{629E45AA8C346AFE}" {
+   Enabled 1
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{629E45AA84C02956}" {
+     isEnabled 0
+    }
+    WCS_ArmamentWeaponGroup "{646543F7BE8E82A9}" {
+     prefab "{09A182D7D80853B2}Prefabs/Weapons/AircraftWeapons/MissilePods/AIM92/Pod_AIM92_AH6M.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{646543F7BE8E82BB}" {
+       Position PointInfo "{646543F7BE8E82BD}" {
+        Offset -1.5036 0.7092 -0.262
+       }
+      }
+      WCS_ArmamentWeaponInfo "{646543F7BE8E82B2}" {
+       Position PointInfo "{646543F7BE8E82B3}" {
+        Offset 1.5036 0.7092 -0.262
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{646543F7BE8E82B1}" {
+       m_iFireIntervalMS 2500
+      }
+     }
+    }
+   }
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{646543F7BE8E828A}" {
+   components {
+    WCS_Armament_InfraredMissileWeaponStationModuleComponent "{646543F7BE8E8288}" {
+     m_fLockStartupDelayInSeconds 3
+     m_fLockFov 5
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Camera {
+    }
+    RegisteringComponentSlotInfo Hydra_Cable_L {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Hydra_Cable_R {
+     Enabled 0
+    }
+   }
+  }
+  WeaponSlotComponent "{62AD0772FF32B9A3}" {
+   Enabled 1
+  }
+ }
+}

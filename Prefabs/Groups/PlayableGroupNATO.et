@@ -1,0 +1,5 @@
+SCR_AIGroup : "{8B4D49A9F324E7D5}Prefabs/Groups/PlayableGroup.et" {
+ ID "56FC873F6D4EEACC"
+ m_iGroupRadioFrequency 49000
+ m_bDeleteIfNoPlayer 0
+}

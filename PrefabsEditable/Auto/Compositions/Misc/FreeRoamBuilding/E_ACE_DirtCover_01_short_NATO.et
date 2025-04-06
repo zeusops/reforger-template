@@ -1,0 +1,41 @@
+GenericEntity : "{C81B764F6C5B4064}Prefabs/Compositions/Misc/FreeRoamBuilding/ACE_DirtCover_01_short.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  ACE_Trenches_OutlineGarbageComponent "{649518D7326E5433}" {
+  }
+  SCR_EditableEntityComponent "{5E50727929EC2547}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_DirtCover_01_short_Name"
+    m_Image "{E8A18CF05811FA0C}UI/Textures/EditorPreviews/Auto/Structures/Military/Fortifications/E_DirtCover_01_short.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     108 -1889967296
+    }
+    m_aAutoLabels {
+     1 121
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{649518D7326E542D}" {
+      m_BudgetType CAMPAIGN
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{649518D7326E542E}" {
+      m_BudgetType PROPS
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{649518D7326E5416}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{649518D7326E541C}" {
+     m_Prefab "{D062A693B66D2035}PrefabsEditable/Auto/Structures/Military/Fortifications/E_ACE_DirtCover_01_short.et"
+     m_vPosition 0 0.3 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+}

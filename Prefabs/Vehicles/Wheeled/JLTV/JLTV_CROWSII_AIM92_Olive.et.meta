@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C1DC0BFD6196A84D}Prefabs/Vehicles/Wheeled/JLTV/JLTV_CROWSII_AIM92_Olive.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

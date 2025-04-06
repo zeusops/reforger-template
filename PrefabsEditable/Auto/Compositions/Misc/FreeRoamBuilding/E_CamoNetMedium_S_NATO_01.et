@@ -1,0 +1,46 @@
+GenericEntity : "{D6D5331B30A2C7C6}Prefabs/Compositions/Misc/FreeRoamBuilding/CamoNetMedium_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E5072792896A436}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_CamoNet_Medium_US_Name"
+    m_Image "{D70115F9573841A1}UI/Textures/EditorPreviews/Auto/Compositions/Misc/FreeRoamBuilding/E_CamoNetMedium_S_US_01.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     108 -1889967296
+    }
+    m_aAutoLabels {
+     1 123
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{649518D052DE6FBE}" {
+      m_BudgetType CAMPAIGN
+      m_Value 60
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{649518D052DE6F89}" {
+      m_BudgetType PROPS
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{649518D052DE6F81}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{649518D052DE6F84}" {
+     m_Prefab "{47E2C605FF71A05A}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Medium_US.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5D72B620C52FC6EB"
+   Flags 1048576
+  }
+ }
+}

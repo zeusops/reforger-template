@@ -1,0 +1,34 @@
+GenericEntity : "{79604FB6CD0DD617}Prefabs/Props/Military/Compositions/US/VehicleService_US_Small.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+   m_bSuppliesConsumptionEnabled 0
+  }
+  SCR_EditableEntityComponent "{633A0E24DC833768}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{633A0E24D29E44D9}" {
+    Name "Vehicle Spawn Small"
+    Icon "{943873C801ED95B8}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad.edds"
+    m_Image "{DA5E1A9BA20D2486}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/US/E_VehicleService_US.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     7 260 -1889967296
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5D22B92ED0ABBFD4}" {
+   "faction affiliation" "NATO"
+  }
+  SCR_ResourceComponent "{5D7CC617B33EF1CF}" {
+   m_aDisabledResourceTypes {
+    0
+   }
+  }
+  ActionsManagerComponent "{5CB6952C9693C41C}" {
+   additionalActions {
+    SCR_CampaignBuildingStartUserAction "{5ED5534E4E40397F}" {
+     m_sActionNameNoSupplies "Spawn Light Vic"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AACBF6A2B53000C9}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/NATO_MARSOC_Rifleman.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

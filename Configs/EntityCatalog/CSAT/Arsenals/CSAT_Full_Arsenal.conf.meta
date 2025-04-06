@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6604BB99D237C5D2}Configs/EntityCatalog/CSAT/Arsenals/CSAT_Full_Arsenal.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

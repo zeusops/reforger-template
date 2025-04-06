@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{42FA2AD78C0E5695}Configs/EntityCatalog/FactionLess/Characters_IMSF.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

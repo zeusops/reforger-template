@@ -1,0 +1,432 @@
+GenericEntity : "{C0D09A53EEA441D6}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_US_02.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E989B7AE960BF8F}" : "{B35795373E565FE7}Prefabs/Editor/Components/SlotFlatSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_MachineGunNest_S_US_01_Name"
+    m_Image "{9D995EEBAAC81A4D}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_US_02.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     5 90 28 21 25 969
+    }
+    m_aAutoLabels {
+     -1889967296
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{649518D7E78F0E10}" {
+      m_BudgetType CAMPAIGN
+      m_Value 350
+     }
+     SCR_EntityBudgetValue "{649518D7E78F0E2D}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{649518D7E78F0E2E}" {
+      m_BudgetType SYSTEMS
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{649518D7E78F0E21}" {
+      m_BudgetType PROPS
+      m_Value 43
+     }
+     SCR_EntityBudgetValue "{649518D7E78F0E20}" {
+      m_BudgetType VEHICLES
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{649518D7E78F0E38}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{649518D7E78F0E3A}" {
+     m_Prefab "{5B8E1C1EFC841FB9}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_01.et"
+     m_vPosition 0.691 0.1 0.579
+     m_vAngles 0 -43.332 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0E3F}" {
+     m_Prefab "{5B8E1C1EFC841FB9}PrefabsEditable/Auto/Props/Garbage/Military/Ammo/E_GarbageAmmunition_US_01.et"
+     m_vPosition 0.092 0.1 0.222
+     m_vAngles 0 34.65 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0E3E}" {
+     m_Prefab "{43F0E0DFF01BFCC1}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_US_01_M2HB.et"
+     m_vPosition 0 0 1.989
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0E30}" {
+     m_Prefab "{B86F051FF1448BC8}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Chair_NightStand_US_02.et"
+     m_vPosition -2.451 0 0.162
+     m_vAngles 0 67.994 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0E35}" {
+     m_Prefab "{854FA41688492650}PrefabsEditable/Auto/Props/Garbage/Military/Food/E_GarbageFoodMilitaryUS_01.et"
+     m_vPosition -1.364 0.074 0.176
+     m_vAngles 0 113.707 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0E37}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition 0.907 0 -2.478
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0ECA}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition -0.394 0 -2.546
+     m_vAngles 0 174.129 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EC3}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition 4.612 0 -0.29
+     m_vAngles 0 48.441 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EC2}" {
+     m_Prefab "{FD625252F3654B76}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v1.et"
+     m_vPosition 3.261 0 0.447
+     m_vAngles 0 23.086 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EC7}" {
+     m_Prefab "{AB6F2026BAB8DFCE}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rosa_canina_small_01.et"
+     m_vPosition -4.29 0.146 -0.041
+     m_vAngles 15.169 -79.53 2.768
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0ED8}" {
+     m_Prefab "{AB6F2026BAB8DFCE}PrefabsEditable/Auto/Vegetation/Cuttings/E_Rosa_canina_small_01.et"
+     m_vPosition 4.627 0 0.56
+     m_vAngles 0 45.541 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EDB}" {
+     m_Prefab "{D6DE8E5230DA293F}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Small_Top_US.et"
+     m_vPosition 0.056 0 0.655
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EDC}" {
+     m_Prefab "{C22D1A66EFA90AA5}PrefabsEditable/Auto/Vegetation/Cuttings/E_Corylus_avellana_small_01.et"
+     m_vPosition -3.273 0.096 1.405
+     m_vAngles 6.648 -33.856 -2.68
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0ED1}" {
+     m_Prefab "{C22D1A66EFA90AA5}PrefabsEditable/Auto/Vegetation/Cuttings/E_Corylus_avellana_small_01.et"
+     m_vPosition -4.1 0.105 0.708
+     m_vAngles 22.253 -86.741 1.235
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0ED0}" {
+     m_Prefab "{C22D1A66EFA90AA5}PrefabsEditable/Auto/Vegetation/Cuttings/E_Corylus_avellana_small_01.et"
+     m_vPosition 5.457 0.1 -0.268
+     m_vAngles 0 29.805 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0ED3}" {
+     m_Prefab "{C22D1A66EFA90AA5}PrefabsEditable/Auto/Vegetation/Cuttings/E_Corylus_avellana_small_01.et"
+     m_vPosition 1.303 0.371 2.385
+     m_vAngles 0 15.628 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0ED2}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition 5.555 0 -1.063
+     m_vAngles 0 22.819 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0ED4}" {
+     m_Prefab "{7A77E4A5057DE99D}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_02.et"
+     m_vPosition 0.484 0.1 -0.539
+     m_vAngles 0 33.506 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EED}" {
+     m_Prefab "{4743C19D701160AA}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_05.et"
+     m_vPosition -3.102 0.1 -0.144
+     m_vAngles 0 123.805 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EEF}" {
+     m_Prefab "{4743C19D701160AA}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_05.et"
+     m_vPosition 4.849 0.1 -1.219
+     m_vAngles 0 34.527 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EEE}" {
+     m_Prefab "{488C2150293BCAFA}PrefabsEditable/Auto/Vegetation/Cuttings/E_Sambucus_Nigra_medium_01.et"
+     m_vPosition 0.629 0 -3.259
+     m_vAngles 22.34 167.746 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EE0}" {
+     m_Prefab "{D7FB89CF21DDA2A3}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_short.et"
+     m_vPosition 5.43 0 -0.967
+     m_vAngles 0 20.622 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EE2}" {
+     m_Prefab "{879622F68D50A40E}PrefabsEditable/Auto/Vegetation/Cuttings/E_Salix_cinerea_medium_01.et"
+     m_vPosition -1.683 0.1 2.131
+     m_vAngles 0 14.394 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F0EE4}" {
+     m_Prefab "{A1932F99114451A7}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Short.et"
+     m_vPosition 1.713 0 2.828
+     m_vAngles 0 -101.033 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F4FBC}" {
+     m_Prefab "{A1932F99114451A7}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Short.et"
+     m_vPosition 5.63 0 -0.046
+     m_vAngles 0 -61.43 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F4FBE}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition 2.849 0 -0.875
+     m_vAngles 0 -71.221 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F4FA0}" {
+     m_Prefab "{2E67A6863167B995}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Camo_long_high_US.et"
+     m_vPosition 2.625 0 0.664
+     m_vAngles 0 13.536 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F4FA2}" {
+     m_Prefab "{F5B35489488081E4}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Corner_BarbedWire_US_01.et"
+     m_vPosition -3.154 0 0.418
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D7E78F4FA4}" {
+     m_Prefab "{20449085DE597F06}PrefabsEditable/Auto/Vegetation/Cuttings/E_Betula_pendula_medium_01.et"
+     m_vPosition 3.108 0 1.775
+     m_vAngles 0 73.736 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5CCCBEC480BAEC08"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEC1E"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEC27"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A9499F9B"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEC34"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEC48"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEC68"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEC74"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEC89"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEC9A"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAECAD"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAECBF"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAECD1"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAECDC"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEDE9"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEDFB"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEE00"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "570C956566ECAA57"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "570CFD756A2B77AA"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "570CFD7584B8E353"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "570CFD7584B8E361"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "570CFD7584B8E3D4"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "570CFD7584B8ECDD"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "570CFD7584B8ECE0"
+     Flags 1048576
+    }
+    Turret {
+     ID "5CB0D9912FD9E690"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEF0B"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEF1B"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEF61"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEF71"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEF8C"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5CB0D9916F5857E9"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEFAB"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5CB0D991ED6A7583"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CB0D991ED6A758D"
+     Flags 1048576
+    }
+    GenericEntity {
+     ID "5CB0D991ED6A981C"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB0D991ED6A9819"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB0D991ED6A981A"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB0D991ED6A9825"
+     Flags 1048576
+    }
+    StaticModelEntity {
+     ID "5CB0D991ED6A9826"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEC480BAEFEF"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5CD2AC4CCCDEBFD2"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5CCCBEC480BAECC2"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5CCCBEC480BAECF3"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5CCCBEC480BAEDD1"
+   Flags 1048576
+   {
+    GenericEntity {
+     ID "5CB0F58AFEACBA93"
+     Flags 1048576
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "5CCCBEC480BAEF2A"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5CCCBEC480BAEF51"
+   Flags 1048576
+  }
+ }
+}

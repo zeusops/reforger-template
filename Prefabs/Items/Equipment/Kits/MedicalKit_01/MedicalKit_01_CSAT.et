@@ -1,0 +1,51 @@
+GenericEntity : "{46FD263F0F368A92}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  MeshObject "{5CCCD4F57413F626}" {
+   Materials {
+    MaterialAssignClass "{64E10C73218A4472}" {
+     SourceMaterial "MedicalKit_01"
+     AssignedMaterial "{F0DDB6BC77AF3CC0}Assets/Items/Equipment/Kits/MedicalKit_01/Data/MedicalKit_01_USSR.emat"
+    }
+    MaterialAssignClass "{64E10C73218A4462}" {
+     SourceMaterial "decals_logo"
+     AssignedMaterial "{1CB44B3222E585C3}Assets/Items/Equipment/Kits/MedicalKit_01/Data/decals_MedicalKit_01_USSR.emat"
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5E3CBEE8057882D8}" {
+   "faction affiliation" "CSAT"
+  }
+  SCR_HealSupportStationComponent "{5E68A54C698EFD84}" {
+   m_iSupplyCostDamageHealed 0
+   m_fMaxHealScaled 1
+   m_fServerAddedMaxHealScaled 0.1
+   m_iSuppliesPerDoTHealed 0
+   m_iSupplyCostBloodHealed 0
+  }
+  SCR_ResourceComponent "{5E4A957708B43723}" {
+   m_aContainers {
+    SCR_ResourceContainer "{64E11B9052985598}" {
+     m_eResourceRights SELF
+     m_eStorageType STORED
+     m_fResourceValueCurrent 1000
+     m_fResourceValueMax 1000
+     m_fResourceGain 0
+     m_fResourceGainTickrate 0
+     m_fResourceGainTimeout 0
+     m_fResourceDecay 0
+     m_fResourceDecayTickrate 0
+     m_fResourceDecayTimeout 0
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumer "{5E4EDEA541710E5E}" {
+     m_fSellMultiplier 20
+    }
+   }
+  }
+  SCR_ResupplyMedicalGadgetSupportStationComponent "{5E3CC26A2C28361C}" {
+   m_iFallbackItemSupplyCost 20
+  }
+ }
+}

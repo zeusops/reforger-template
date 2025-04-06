@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{75A511F90BD98757}Prefabs/Characters/Factions/BLUFOR/NATO/USMC/Desert/NATO_USMC_D_Medic.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,18 @@
+SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
+ ID "54F0A77282A3AA3B"
+ components {
+  SCR_PlacingEditorComponent "{5145484399BAA2E7}" {
+   m_Registries {
+    SCR_PlaceableEntitiesRegistry "{633A0E247F0C80CB}" : "{68C7F24746FB7B3D}Configs/Editor/PlaceableEntities/Characters_IMSF.conf" {
+     m_sSourceDirectory "{A317BA3193B77EF5}Prefabs/Characters"
+    }
+    SCR_PlaceableEntitiesRegistry "{633A0E247FF5D49B}" : "{37E59955867DBAED}Configs/Editor/PlaceableEntities/Groups_IMSF.conf" {
+    }
+    SCR_PlaceableEntitiesRegistry "{633A0E247EA9F5D6}" : "{67577FB816212B59}Configs/Editor/PlaceableEntities/Systems_IMSF.conf" {
+     m_sAddon "IMSF"
+     m_sSourceDirectory "{C502C0D612FB13CE}Prefabs"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{A4E00D050AA16EAB}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Rifleman"
+    Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    m_aAutoLabels {
+     122 46
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64E60A1A536B2E49}" {
+     PrefabsToSpawn + {
+      "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
+     }
+    }
+    ItemsInitConfigurationItem "{64E60A1C3E56E8CC}" {
+    }
+   }
+  }
+ }
+}

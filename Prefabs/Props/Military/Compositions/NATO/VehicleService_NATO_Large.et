@@ -1,0 +1,33 @@
+GenericEntity : "{24B7AC8A3BE10CCB}Prefabs/Props/Military/Compositions/US/VehicleService_US_Large.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_EditableEntityComponent "{633A0E2348CB0E62}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{633A0E234333B2DD}" {
+    Name "Vehicle Spawn Large"
+    Icon "{BFBA42C85CB25019}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Helicopter.edds"
+    m_Image "{DA5E1A9BA20D2486}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/US/E_VehicleService_US.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     7 260 -1889967296
+    }
+    m_aAutoLabels {
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5D22B92ED0ABBFD4}" {
+   "faction affiliation" "NATO"
+  }
+  SCR_ResourceComponent "{5D7CC617B33EF1CF}" {
+   m_aDisabledResourceTypes {
+    0
+   }
+  }
+  ActionsManagerComponent "{5CB6952C9693C41C}" {
+   additionalActions {
+    SCR_CampaignBuildingStartUserAction "{5ED5534E4E40397F}" {
+     m_sActionNameNoSupplies "Spawn Heli"
+    }
+   }
+  }
+ }
+}

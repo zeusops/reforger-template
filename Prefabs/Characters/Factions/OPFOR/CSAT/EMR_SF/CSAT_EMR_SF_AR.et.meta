@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E610F2424F7FF76B}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_AR.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

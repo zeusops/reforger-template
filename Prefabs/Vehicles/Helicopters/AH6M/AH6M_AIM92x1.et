@@ -1,0 +1,76 @@
+Vehicle : "{6CA46BC65DE861A8}Prefabs/Vehicles/Helicopters/AH6M/AH6M_Armed_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_HelicopterSoundComponent "{5A7CE769E7A9C43E}" {
+   Filenames + {
+    "{C45C3238BFA3D3A9}Sounds/Weapons/Launchers/FIM92_Stinger/Weapons_Launchers_FIM92_Stinger_Lock.acp"
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AH6M-Vehicle_AH6M_AIM92x1_Name"
+    m_Image "{AD6B012DB2488C52}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/AH6M_AIM92x1.edds"
+    m_aAutoLabels {
+     11 -1889967296 122
+    }
+   }
+  }
+  WCS_Armament_LoadoutComponent "{629E45AA8C346AFE}" {
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{629E45AA84C02956}" {
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{6154C601E3F07C0F}" {
+       isEnabled 0
+      }
+      WCS_ArmamentWeaponInfo "{6154C601E3368D28}" {
+       Position PointInfo "{6154C601FD423397}" {
+        Offset 1.4994 0.5181 -0.3348
+       }
+      }
+     }
+    }
+    WCS_ArmamentWeaponGroup "{646543F7B3A008A0}" {
+     prefab "{09A182D7D80853B2}Prefabs/Weapons/AircraftWeapons/MissilePods/AIM92/Pod_AIM92_AH6M.et"
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{646543F7B3A008B9}" {
+       Position PointInfo "{646543F7B3A008BF}" {
+        Offset -1.5036 0.7092 -0.262
+       }
+      }
+     }
+     fireModes {
+      WCS_Armament_WeaponSingleFireMode "{646543F7B3A008BD}" {
+       m_iFireIntervalMS 2500
+      }
+     }
+    }
+   }
+  }
+  WCS_Armament_VehicleWeaponStationComponent "{646543F7B3A008B1}" {
+   components {
+    WCS_Armament_InfraredMissileWeaponStationModuleComponent "{646543F7B3A008B7}" {
+     m_fLockStartupDelayInSeconds 3
+     m_fLockFov 5
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Camera {
+    }
+    RegisteringComponentSlotInfo Hydra_Cable_L {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Hydra_Cable_R {
+    }
+   }
+  }
+  WeaponSlotComponent "{646543F7B3A00881}" {
+   shouldHandleObstruction 0
+   obstructionTestCharacterOffset 0 0 0
+   obstructionTestAddedLength 0
+   WeaponTemplate "{52120E4BA120661B}Prefabs/Weapons/Core/Armament_Empty.et"
+   WeaponSlotIndex 2
+  }
+ }
+}
