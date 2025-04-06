@@ -1,0 +1,45 @@
+GenericEntity : "{DBD178AE8D6F0075}Prefabs/Props/Military/Compositions/USSR/VehicleService_USSR.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+   m_aAvailableTraits {
+    53 54
+   }
+  }
+  SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+   m_fMaxSlotDistance 25
+   m_eType HEAVY_VEHICLE_DEPOT
+   m_eBuildingLabel SERVICE_VEHICLE_DEPOT_HEAVY
+   m_sDelegatePrefab "{D0F4728030717E00}Prefabs/Systems/Services/ServicePointDelegate_VehicleDepotHeavy.et"
+   m_aAllowedLabels {
+    54 53
+   }
+  }
+  SCR_EditableEntityComponent "{64E4CD8A98DC78C4}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{64E4CD8A97570E93}" {
+    Name "Vehicle Spawn Medium"
+    Icon "{95F49CBE9FF7A0CB}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Apc.edds"
+    m_Image "{DDCAA1BC18252CD9}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/USSR/E_VehicleService_USSR_Medium.edds"
+    m_sFaction "CSAT"
+    m_aAuthoredLabels {
+     7 260 -1891967296
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5D22B92ED0ABBFD4}" {
+   "faction affiliation" "CSAT"
+  }
+  SCR_ResourceComponent "{5D7CC617B33EF1CF}" {
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{5DB899358AF453B9}" {
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGeneratorServicePoint "{5DB89935F419B998}" {
+    }
+   }
+   m_aDisabledResourceTypes +{
+   }
+  }
+ }
+}

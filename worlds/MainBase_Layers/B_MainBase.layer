@@ -1,0 +1,142 @@
+GenericEntity : "{576F4471851FE4D9}Prefabs/Props/Military/Compositions/NATO/ArsenalBox_NATO_Equipment.et" {
+ coords 1375.297 9.735 1864.289
+ angleY 97.334
+}
+$grp GenericEntity : "{6227B6B556946A6A}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_NATO.et" {
+ {
+  coords 1390.379 9.625 1871.927
+  angleY -79.325
+ }
+ {
+  coords 1386.76 9.634 1858.848
+  angleY -74.025
+ }
+}
+GenericEntity : "{719E02FDF6524F53}Prefabs/Compositions/Misc/FreeRoamBuilding/CamoNetLarge_M_US_01.et" {
+ coords 1378.361 9.656 1848.004
+ angleY 5.679
+}
+SCR_SpawnPoint : "{975269DB676618E4}Prefabs/MP/Spawning/SpawnPoint_NATO.et" {
+ coords 1380.759 9.955 1868.265
+ angleY 14.175
+ m_sFaction "NATO"
+ m_bTimedSpawnPoint 0
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "NATO SPAWN"
+ }
+}
+GenericEntity : "{BCB60D50C8128205}Prefabs/Props/Military/Arsenal/ArsenalBoxes/NATO/ArsenalBox_NATO.et" {
+ coords 1373.953 9.62 1858.286
+ angleY 104.252
+}
+GenericEntity : "{C0D8E695B0022C8D}Prefabs/Props/Military/Compositions/NATO/ArsenalBox_NATO_Weapons.et" {
+ coords 1374.684 9.69 1861.848
+ angleY 98.613
+}
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ B_Main {
+  coords 1381.091 9.726 1868.669
+  {
+   GenericEntity B_Markers : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+      Slot4 {
+       components {
+        SCR_MapDescriptorComponent "{64F539AFAE4932EE}" {
+         DisplayName "Arsenals"
+        }
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et"
+        }
+       }
+       coords 7.114 -0.101 -3.087
+      }
+      Slot1 {
+       components {
+        SCR_MilitaryBaseMapDescriptorComponent "{64F539AF9A825F6E}" {
+         DisplayName "Firing Range"
+        }
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et"
+        }
+       }
+       coords -25.861 3.735 11.459
+      }
+      Slot2 {
+       components {
+        SCR_MapDescriptorComponent "{64F539AFAE4932EE}" {
+         DisplayName "Obstacle Course"
+        }
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et"
+        }
+       }
+       coords -99.979 2.032 17.121
+      }
+     }
+     GenericEntity SlotMarker1 : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
+      components {
+       SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
+        m_MapMarkerType SCR_ScenarioFrameworkMarkerMilitary "{64F336D778DDB8F1}" {
+         m_sMapMarkerText "NATO Base"
+         m_eMapMarkerDimension INSTALLATION
+        }
+       }
+      }
+      coords 6.863 0 25.539
+      angleY 5.698
+     }
+    }
+   }
+  }
+ }
+ B_BaseAI {
+  coords 1389.69 11.652 1895.046
+  {
+   GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{8D43830F02C3F114}Prefabs/Systems/ScenarioFramework/Components/SlotAI.et" {
+      SlotAI1 {
+       components {
+        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+         m_sObjectToSpawn "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Rifleman.et"
+        }
+       }
+       coords -5.65 0.146 3.107
+       angleY 86.892
+      }
+      SlotAI3 {
+       components {
+        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+         m_sObjectToSpawn "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Rifleman.et"
+        }
+       }
+       coords 27.235 -0.039 -6.529
+       angleY 86.892
+      }
+      SlotAI4 {
+       components {
+        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+         m_sObjectToSpawn "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Rifleman.et"
+        }
+       }
+       coords -46.023 -1.36 -9.757
+       angleY 86.892
+      }
+      SlotAI5 {
+       components {
+        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+         m_sObjectToSpawn "{CB4B1645B748D5D4}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/RHS_USAF_USMC_MEF/Character_RHS_USAF_USMC_Rifleman.et"
+        }
+       }
+       coords -91.431 -0.536 -29.112
+       angleY 86.892
+      }
+     }
+    }
+   }
+  }
+ }
+}

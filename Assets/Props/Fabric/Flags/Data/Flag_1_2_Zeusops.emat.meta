@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E025E1E164BC20EC}Assets/Props/Fabric/Flags/Data/Flag_1_2_Zeusops.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

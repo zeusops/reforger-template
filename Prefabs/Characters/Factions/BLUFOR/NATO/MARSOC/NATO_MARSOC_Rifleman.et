@@ -1,0 +1,14 @@
+SCR_ChimeraCharacter : "{542CD230DFE36E66}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/NATO_MARSOC_Baseloadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{61E88418254009A3}" {
+     PrefabsToSpawn + {
+      "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et"
+     }
+    }
+   }
+  }
+ }
+}

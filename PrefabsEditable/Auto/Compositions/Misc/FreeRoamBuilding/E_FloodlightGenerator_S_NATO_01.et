@@ -1,0 +1,190 @@
+GenericEntity : "{96D71CB478F8DF27}Prefabs/Compositions/Misc/FreeRoamBuilding/FloodlightGenerator_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E6911EB54EEA2C6}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_GeneratorFloodlight_US_01_Name"
+    m_Image "{12DA99E4D8D10398}UI/Textures/EditorPreviews/Auto/Compositions/Misc/FreeRoamBuilding/E_FloodlightGenerator_S_US_01.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     1 -1889967296 29
+    }
+    m_aAutoLabels {
+     122
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{649518D794A51292}" {
+      m_BudgetType CAMPAIGN
+      m_Value 125
+     }
+     SCR_EntityBudgetValue "{649518D794A512AD}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{649518D794A512A0}" {
+      m_BudgetType SYSTEMS
+      m_Value 2
+     }
+     SCR_EntityBudgetValue "{649518D794A512A2}" {
+      m_BudgetType PROPS
+      m_Value 12
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{649518D794A512B8}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{649518D794A512BE}" {
+     m_Prefab "{95EFB2EE402F81DB}PrefabsEditable/Auto/Props/Military/Generators/E_GeneratorFloodlight_US_01.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A512B3}" {
+     m_Prefab "{DBC50A9B639F46E2}PrefabsEditable/Auto/Structures/Military/Camps/AirfieldMatting_01/E_AirfieldMatting_US_01_short.et"
+     m_vPosition -1.763 0 1.594
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A512B7}" {
+     m_Prefab "{DBC50A9B639F46E2}PrefabsEditable/Auto/Structures/Military/Camps/AirfieldMatting_01/E_AirfieldMatting_US_01_short.et"
+     m_vPosition 1.746 0 1.474
+     m_vAngles 0 2.876 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A512C9}" {
+     m_Prefab "{DBC50A9B639F46E2}PrefabsEditable/Auto/Structures/Military/Camps/AirfieldMatting_01/E_AirfieldMatting_US_01_short.et"
+     m_vPosition 0.012 0 1.56
+     m_vAngles 0 2.876 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A4B03A}" {
+     m_Prefab "{854FA41688492650}PrefabsEditable/Auto/Props/Garbage/Military/Food/E_GarbageFoodMilitaryUS_01.et"
+     m_vPosition -1.196 0.058 0.958
+     m_vAngles 0 -48.708 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A4B03F}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition -1.267 0 -1.187
+     m_vAngles 0 0.028 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A4B033}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition -1.813 0 -0.234
+     m_vAngles 0 -88.612 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A4B031}" {
+     m_Prefab "{BCC37CB613A921AF}PrefabsEditable/Auto/Props/Military/Furniture/E_ChairMilitary_US_02.et"
+     m_vPosition -1.456 0.054 1.288
+     m_vAngles 0 41.042 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A4B02E}" {
+     m_Prefab "{74B3C3B9AFC69136}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_plastic.et"
+     m_vPosition 0.186 0 -1.242
+     m_vAngles 0 2.996 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A4B023}" {
+     m_Prefab "{7A77E4A5057DE99D}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_02.et"
+     m_vPosition -0.199 0 0.934
+     m_vAngles 0 14.079 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A4B026}" {
+     m_Prefab "{71703A92919140B1}PrefabsEditable/Auto/Structures/Military/Camps/AirfieldMatting_01/E_AirfieldMatting_US_01_long.et"
+     m_vPosition 0.04 0 2.064
+     m_vAngles 0 2.573 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A4B024}" {
+     m_Prefab "{71703A92919140B1}PrefabsEditable/Auto/Structures/Military/Camps/AirfieldMatting_01/E_AirfieldMatting_US_01_long.et"
+     m_vPosition -0.007 0 1.031
+     m_vAngles 0 2.573 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A4B01B}" {
+     m_Prefab "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et"
+     m_vPosition -2.8 0 -0.402
+     m_vAngles 0 -177.349 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{649518D794A4B018}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition 2.478 0 0.151
+     m_vAngles 0 -62.923 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GameEntity {
+   ID "5E64B54879740AB5"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5E6911EAF040169C"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5E6911EAF04016AB"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5E6911EAF040186D"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5E6911EAF0401879"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5E6911EAF0401966"
+   Flags 1048576
+  }
+  GenericEntity {
+   ID "5E6911EAF0401986"
+   Flags 1048576
+   {
+    DecalEntity {
+     ID "56DEFDB4A9499F9B"
+     Flags 1048576
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6911EAF04019AE"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5E6911EAF040190C"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5E6911EAF040192A"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5E6911EAF040195D"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5E6911EAF04019C2"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5E6911EAF04019ED"
+   Flags 1048576
+  }
+  StaticModelEntity {
+   ID "5E6911EAF04019F5"
+   Flags 1048576
+  }
+ }
+}

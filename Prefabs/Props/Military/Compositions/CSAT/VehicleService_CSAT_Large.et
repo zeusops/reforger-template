@@ -1,0 +1,58 @@
+GenericEntity : "{DBD178AE8D6F0075}Prefabs/Props/Military/Compositions/USSR/VehicleService_USSR.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_CampaignBuildingProviderComponent "{5ED49CDEA85A0083}" {
+   m_aAvailableTraits {
+    51
+   }
+  }
+  SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+   m_fMaxSlotDistance 40
+   m_eType HELIPAD
+   m_eBuildingLabel SERVICE_HELIPAD
+   m_sDelegatePrefab "{A7621A63DA8C97DC}Prefabs/Systems/Services/ServicePointDelegate_Helipad.et"
+   m_aAllowedLabels {
+    51
+   }
+   m_bNeedAllLabels 1
+  }
+  SCR_EditableEntityComponent "{64E4CD8AA8A0C4C6}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{64E4CD8AAE3E8D40}" {
+    Name "Vehicle Spawn Large"
+    Icon "{BFBA42C85CB25019}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Helicopter.edds"
+    m_Image "{FE4FEB9319E24AAA}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/USSR/E_VehicleService_USSR_Large.edds"
+    m_sFaction "CSAT"
+    m_aAuthoredLabels {
+     7 260 -1891967296
+    }
+    m_aAutoLabels {
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5D22B92ED0ABBFD4}" {
+   "faction affiliation" "CSAT"
+  }
+  SCR_ResourceComponent "{5D7CC617B33EF1CF}" {
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{5DB899358AF453B9}" {
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGeneratorServicePoint "{5DB89935F419B998}" {
+    }
+   }
+   m_aDisabledResourceTypes +{
+   }
+  }
+  ActionsManagerComponent "{5CB6952C9693C41C}" {
+   additionalActions {
+    SCR_CampaignBuildingStartUserAction "{5ED5534E4E40397F}" {
+     UIInfo UIInfo "{5EF88B0BEE450043}" {
+      Name "#AR-Action_RequestHelicopter-UC"
+     }
+     m_sActionNameNoSupplies "#AR-Action_RequestHelicopter_NoSupplies-UC"
+    }
+   }
+  }
+ }
+}

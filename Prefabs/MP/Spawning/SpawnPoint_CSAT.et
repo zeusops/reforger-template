@@ -1,0 +1,26 @@
+SCR_SpawnPoint : "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et" {
+ ID "544EB04DCBFBD126"
+ components {
+  SCR_EditableSpawnPointComponent "{64E10C768A790541}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{64E10C768A79054A}" {
+    Name "CSAT SPAWN"
+    Description "Spawn"
+    Icon "{B3FBE7D84E42508A}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Respawn.edds"
+    m_Image "{831012F41EFE085A}UI/Textures/EditorPreviews/Auto/Systems/SpawnPoints/E_SpawnPoint_US.edds"
+    m_sFaction "CSAT"
+    m_aAuthoredLabels {
+     7 30 -1891967296
+    }
+   }
+  }
+  SCR_MapDescriptorComponent "{54C659A97C47BDE2}" {
+   DisplayName "Main Base"
+   VisibleOnMap 1
+  }
+ }
+ m_sFaction "CSAT"
+ m_bTimedSpawnPoint 1
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "CSAT SPAWN"
+ }
+}

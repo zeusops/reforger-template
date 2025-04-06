@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{B135BA1902DB3A0B}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_CSAT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

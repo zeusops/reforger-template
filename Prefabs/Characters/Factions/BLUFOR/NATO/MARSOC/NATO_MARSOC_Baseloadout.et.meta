@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{542CD230DFE36E66}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/NATO_MARSOC_Baseloadout.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

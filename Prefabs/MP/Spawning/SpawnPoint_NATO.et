@@ -1,0 +1,22 @@
+SCR_SpawnPoint : "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et" {
+ ID "544EB04DCBFBD126"
+ components {
+  SCR_EditableSpawnPointComponent "{633A0E2B3E1C13BB}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{633A0E2B030962AE}" {
+    Name "NATO SPAWN"
+    Description "Spawn"
+    Icon "{B3FBE7D84E42508A}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Respawn.edds"
+    m_Image "{831012F41EFE085A}UI/Textures/EditorPreviews/Auto/Systems/SpawnPoints/E_SpawnPoint_US.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     7 30 -1889967296
+    }
+   }
+  }
+ }
+ m_sFaction "NATO"
+ m_bTimedSpawnPoint 1
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "NATO SPAWN"
+ }
+}

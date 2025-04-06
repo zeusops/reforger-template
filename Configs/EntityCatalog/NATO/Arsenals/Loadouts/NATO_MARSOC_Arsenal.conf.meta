@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{63364E5120B9B5CC}Configs/EntityCatalog/NATO/Arsenals/NATO_MARSOC_Arsenal.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,23 @@
+GenericEntity : "{89FAE23A65BBB46D}Prefabs/Props/Military/CISS/SupplyDrop/Parts/US/EquipmentBox_US.et" {
+ ID "63032425024EBE27"
+ components {
+  SCR_UniversalInventoryStorageComponent "{612AE13AABBEE866}" {
+   MultiSlots {
+    MultiSlotConfiguration "{612AE13CF26F988D}" {
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{612AE13CA1B98DD7}" {
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{612AE13D2E06A321}" {
+     SlotTemplate InventoryStorageSlot s15 {
+      Prefab "{27AC9FC7F5E2BEEB}Prefabs/Weapons/Magazines/MK153/Container_MK153_HEDP.et"
+     }
+    }
+    MultiSlotConfiguration "{612AE13D08FBC22F}" {
+     NumSlots 2
+    }
+   }
+  }
+ }
+}

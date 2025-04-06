@@ -1,0 +1,27 @@
+GenericEntity : "{A28E5D231A74D95D}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Equipment.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eSupportedArsenalItemTypes 654528
+  }
+  SCR_EditableEntityComponent "{633A0E2E52EB9DB1}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{633A0E2E56FF0B35}" {
+    Name "Arsenal Box Equipment"
+    Icon "{C44DAC10032A8E26}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal_Equipment.edds"
+    m_Image "{9AC6EDE6BA4A3ADD}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/US/E_ArsenalBox_US_Equipment.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     7 280 -1889967296
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "NATO"
+  }
+  SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+   m_aDisabledResourceTypes {
+    0
+   }
+  }
+ }
+}

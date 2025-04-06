@@ -1,0 +1,167 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{64E11B951FBE9C68}" {
+   "faction affiliation" "CSAT"
+  }
+  RigidBody "{5E96A067A67C5029}" {
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     Offset 0 0 -1.5
+     Extents 12 0.5 12
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{64E11B9449846A5B}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{64E11B97B3141F25}" {
+    Name "Armory"
+    Icon "{824477FA49F8A432}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal_Ammo.edds"
+    m_Image "{B2C4C6BF52910927}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatSmall/E_AmmoStorage_S_USSR_01.edds"
+    m_sFaction "CSAT"
+    m_aAuthoredLabels {
+     7 280 -1891967296
+    }
+   }
+  }
+  Hierarchy "{64E11B951FBE9C9B}" {
+   Enabled 1
+  }
+ }
+ coords 0 0 0
+ {
+  GenericEntity : "{1A6F76E0028DE740}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_USSR_01.et" {
+   ID "64E11B951FBF12AA"
+   coords 3.234 0 -1.135
+   angleY -0.979
+   {
+    GenericEntity {
+     ID "5D371ACBC8811EDA"
+     components {
+      SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+       "faction affiliation" "CSAT"
+      }
+      SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+       m_aDisabledResourceTypes {
+        0
+       }
+      }
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{6CD65604C7945A66}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_03.et" {
+   {
+    ID "64E11B951FBF12D8"
+    coords 3.198 0.1 -1.024
+    angleY 16.75
+   }
+   {
+    ID "64E11B951FBF12D9"
+    coords 1.1 0.1 -2.146
+    angleY -102.564
+   }
+   {
+    ID "64E11B951FBF12DE"
+    coords -3.779 0.1 0.165
+    angleY 101.802
+   }
+  }
+  GenericEntity : "{763B4200BE49686E}Prefabs/Compositions/Misc/SubCompositions/Storage/Slotted/Shelter_Arsenal_USSR_02.et" {
+   ID "64E11B951FBF12DA"
+   coords -3.532 0 -0.735
+   angleY 2.445
+   {
+    GenericEntity {
+     ID "5D371ACBDC5FA529"
+     components {
+      SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+       m_eSupportedArsenalItemTypes 654528
+      }
+      SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+       "faction affiliation" "CSAT"
+      }
+      SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+       m_aDisabledResourceTypes {
+        0
+       }
+      }
+     }
+    }
+   }
+  }
+  $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   {
+    ID "64E11B951FBE92D3"
+    components {
+     Hierarchy "{64E11B951FBE9C8B}" {
+      Enabled 1
+     }
+    }
+    coords -0.09 0 0.699
+    angleY 5.423
+   }
+   {
+    ID "64E11B951FBF12C3"
+    components {
+     Hierarchy "{64E11B951FBE9C97}" {
+      Enabled 1
+     }
+    }
+    coords -0.187 0 -3.159
+    angleY 2.224
+   }
+  }
+  GenericEntity : "{DDE8710EA3DEC5FD}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Ammo_USSR.et" {
+   ID "64E11B951FBE92DB"
+   components {
+    Hierarchy "{64E11B951FBE9C8E}" {
+    }
+   }
+   coords -1.275 0 2.3
+   angleX 0.672
+   angleY 3.976
+   angleZ -0.168
+  }
+  StaticModelEntity : "{DF649B29EC7635F3}Prefabs/Structures/Military/Fortifications/DirtPile_01/DirtPile_01_small.et" {
+   ID "64E11B951FBE92E7"
+   components {
+    Hierarchy "{64E11B951FBE9C82}" {
+     Enabled 1
+    }
+   }
+   coords -1.283 0 2.297
+  }
+  $grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+   {
+    ID "64E11B951FBE92E3"
+    components {
+     Hierarchy "{64E11B951FBE9CB9}" {
+      Enabled 1
+     }
+    }
+    coords -2.641 0.1 -4.376
+    angleY 89.067
+   }
+   {
+    ID "64E11B951FBE9C7F"
+    components {
+     Hierarchy "{64E11B951FBE9CBA}" {
+      Enabled 1
+     }
+    }
+    coords 1.878 0.1 -4.774
+    angleY 93.539
+   }
+  }
+  GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   ID "64E11B951FBE9C7E"
+   components {
+    Hierarchy "{64E11B951FBE9CB2}" {
+     Enabled 1
+    }
+   }
+   coords -6.359 0 2.77
+   angleY -70.215
+  }
+ }
+}

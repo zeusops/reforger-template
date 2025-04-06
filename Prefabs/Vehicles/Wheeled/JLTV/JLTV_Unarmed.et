@@ -1,0 +1,83 @@
+Vehicle : "{3A4CDF7428E32E7C}Prefabs/Vehicles/Wheeled/JLTV/JLTV_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{61E709F841305D55}" {
+    }
+   }
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_R01 : "{EB19ADD9D0C7D6B4}Prefabs/Vehicles/Core/Configs/CargoCompartment_JLTV2.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "door_r01"
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56665A8C6923}" {
+      ParentContextList {
+       "door_r01_int"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_r01"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "door_r01_int"
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D5E00C44348}" {
+       ParentContextList {
+        "door_r01"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "codriver_idle"
+      Offset 0.0477 0.05 0.09
+     }
+     SeatType 1
+     DoorInfoList {
+      1
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC_EditableEntity_JLTV_Unarmed_Name"
+    m_Image "{A4172B757597401F}UI/Textures/EditorPreviews/Vehicles/Wheeled/JLTV/JLTV_Unarmed.edds"
+    m_aAutoLabels + {
+     -1889967296
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 650
+     }
+    }
+    m_aOccupantFillCompartmentTypes {
+     2
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{646543F40A3BD746}" {
+      m_BudgetType AI
+      m_Value 3
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   SlotMappers {
+    CompartmentToSlotMapping Roof {
+     Compartments {
+      "PilotCompartment" "Passenger_L02" "Passenger_R02" "Passenger_R01"
+     }
+    }
+   }
+  }
+ }
+ coords 99.994 0 1232.033
+}

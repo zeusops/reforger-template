@@ -1,0 +1,76 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{64F50B4486F3CEA1}" {
+     NavmeshFile "{D8EF7131FB31AF97}worlds/GameMaster/Navmeshes/GM_Arland.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{A0AEEB1E7EF474FA}worlds/GameMaster/Navmeshes/GM_Arland_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{804386FFEB7B7EFD}worlds/MP/Navmeshes/LowResArland.nmn"
+    }
+   }
+  }
+ }
+ coords 1891.659 11.438 1822.161
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation meshes for terrain!! "
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1891.659 12.065 1827.161
+}
+SCR_FactionManager FactionManager_Zeusops1 : "{0F55601DCFDE4F11}Prefabs/MP/Managers/Factions/FactionManager_Zeusops.et" {
+ coords 1885.402 12.609 1826.747
+ Factions {
+  SCR_Faction "{646765290956466F}" {
+  }
+ }
+}
+SCR_BaseGameMode GameMode_Zeusops1 : "{A11D0F6B3D87AA47}Prefabs/Systems/ScenarioFramework/GameMode_Zeusops.et" {
+ components {
+  SCR_WelcomeScreenComponent "{64CB250099D3AB63}" {
+   m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{64CB250099D3AB60}" {
+    m_LeftColumn SCR_WelcomeScreenIntroductionContent "{64CB250099D3AB61}" {
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{64CB250099D3AB67}" {
+       m_sContentImage "{3BFA614388D86206}UI/Textures/MissionLoadingScreens/placeholder_4_UI.edds"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 1881.678 12.59 1823.687
+}
+RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+ coords 1891.659 11.959 1826.161
+}
+ScriptedChatEntity ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+ coords 1891.659 12.175 1828.161
+}
+SCR_BaseTaskManager TaskManager : "{1AC69CD7907FB4F8}Prefabs/Systems/ScenarioFramework/Tasks/TaskManager.et" {
+ coords 1891.659 11.576 1823.161
+}
+SCR_LoadoutManager : "{D8A37BC592C10A6E}Prefabs/MP/Managers/Loadouts/NATO/LoadoutManager_NATO_CADPAT_TE.et" {
+ coords 1888.173 11.978 1823.457
+}

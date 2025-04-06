@@ -1,0 +1,37 @@
+Vehicle : "{6CA46BC65DE861A8}Prefabs/Vehicles/Helicopters/AH6M/AH6M_Armed_base.et" {
+ ID "57DA6675519A417B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AH6M-Vehicle_AH6M_ATGMx1_Name"
+    m_Image "{AB2ACEC2E9485239}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/AH6M_ATGMx1.edds"
+    m_aAutoLabels + {
+     -1889967296
+    }
+   }
+  }
+  WCS_Armament_LoadoutComponent "{629E45AA8C346AFE}" {
+   m_ArmamentGroups {
+    WCS_ArmamentWeaponGroup "{629E45AA84C02956}" {
+     weaponsInfo {
+      WCS_ArmamentWeaponInfo "{6154C601E3F07C0F}" {
+       isEnabled 0
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Camera {
+     Prefab "{4B88C832AC6DCD45}Prefabs/Vehicles/Helicopters/AH6M/VehParts/Turret/AH6M_ATGMx1.et"
+    }
+    RegisteringComponentSlotInfo Hydra_Cable_L {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Hydra_Cable_R {
+    }
+   }
+  }
+ }
+}

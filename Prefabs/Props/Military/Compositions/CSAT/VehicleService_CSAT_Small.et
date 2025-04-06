@@ -1,0 +1,30 @@
+GenericEntity : "{DBD178AE8D6F0075}Prefabs/Props/Military/Compositions/USSR/VehicleService_USSR.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_CatalogEntitySpawnerComponent "{5D22B968F23A847A}" {
+   m_fMaxSlotDistance 10
+   m_aAllowedLabels {
+    50
+   }
+  }
+  SCR_EditableEntityComponent "{64E4CD8AE06E656B}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{64E4CD8AE54BBF3D}" {
+    Name "Vehicle Spawn Small"
+    Icon "{943873C801ED95B8}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad.edds"
+    m_Image "{831B7EBC1631CE5F}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/USSR/E_VehicleService_USSR_Small.edds"
+    m_sFaction "CSAT"
+    m_aAuthoredLabels {
+     7 260 -1891967296
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5D22B92ED0ABBFD4}" {
+   "faction affiliation" "CSAT"
+  }
+  SCR_ResourceComponent "{5D7CC617B33EF1CF}" {
+   m_aDisabledResourceTypes {
+    0
+   }
+  }
+ }
+}

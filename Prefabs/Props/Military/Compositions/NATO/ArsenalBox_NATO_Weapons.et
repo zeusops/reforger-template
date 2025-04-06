@@ -1,0 +1,24 @@
+GenericEntity : "{2F17BFBCDB329CCA}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Weapons.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  SCR_EditableEntityComponent "{633A0E2FB5102E7C}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{633A0E2FAB5896BB}" {
+    Name "Arsenal Box Weapons"
+    Icon "{D5EBF515EE77251A}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal_Weapons.edds"
+    m_Image "{9A622C55C3650BA0}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/US/E_ArsenalBox_US_Weapons.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     7 280 -1889967296
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "NATO"
+  }
+  SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+   m_aDisabledResourceTypes {
+    0
+   }
+  }
+ }
+}

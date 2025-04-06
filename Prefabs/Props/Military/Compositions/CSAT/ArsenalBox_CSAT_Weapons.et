@@ -1,0 +1,44 @@
+GenericEntity : "{AD59EDEAA26CE792}Prefabs/Props/Military/Compositions/USSR/ArsenalBox_USSR.et" {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  MeshObject "{56F2C6D1431AD85A}" {
+   Materials {
+    MaterialAssignClass "{64E11B95690D817C}" {
+     SourceMaterial "ArsenalBox_01_Decal"
+     AssignedMaterial "{BCD47D283B411EC0}Assets/Props/Military/AmmoBox/ArsenalBox_01/Data/ArsenalBox_01_Decal_USSR_weapons.emat"
+    }
+   }
+  }
+  SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+   m_eSupportedArsenalItemTypes 394046
+  }
+  SCR_EditableEntityComponent "{64E11B97CF29EFCB}" {
+   m_UIInfo SCR_EditableDescriptorUIInfo "{64E11B97CEDC2DF5}" {
+    Name "Arsenal Weapons"
+    Icon "{824477FA49F8A432}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_System_Arsenal_Ammo.edds"
+    m_Image "{BF14EE48B6079041}UI/Textures/EditorPreviews/Auto/Props/Military/Compositions/USSR/E_ArsenalBox_USSR_Weapons.edds"
+    m_sFaction "CSAT"
+    m_aAuthoredLabels {
+     7 280 -1891967296
+    }
+   }
+  }
+  SCR_FactionAffiliationComponent "{5A50E7655452A21D}" {
+   "faction affiliation" "CSAT"
+  }
+  SCR_ResourceComponent "{5D7D07D2F7A252D2}" {
+   m_aDisabledResourceTypes {
+    0
+   }
+  }
+  UniversalInventoryStorageComponent "{56F2C6D15FE6C4CE}" {
+   Attributes SCR_ItemAttributeCollection "{56F2C6D6A36680FB}" {
+    ItemDisplayName SCR_InventoryUIInfo "{56F2C6D6A229E091}" {
+     Name "#AR-EditableEntity_ArsenalWeapons_01_USSR_Name"
+    }
+   }
+  }
+ }
+ coords 0.021 0.092 3.09
+ angleY -8.031
+}

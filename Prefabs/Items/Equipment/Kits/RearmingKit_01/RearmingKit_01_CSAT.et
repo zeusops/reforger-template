@@ -1,0 +1,44 @@
+GenericEntity : "{7738517A4B046266}Prefabs/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Item_RearmingKit_USSR_Name"
+    }
+   }
+  }
+  MeshObject "{5CCCC0EC0625E45E}" {
+   Object "{5561998DBFCF39F9}Assets/Items/Equipment/Kits/RearmingKit_01/RearmingKit_01_USSR.xob"
+  }
+  SCR_FactionAffiliationComponent "{5E249DCD907881F8}" {
+   "faction affiliation" "CSAT"
+  }
+  SCR_ResourceComponent "{5E4A9BE79A890A49}" {
+   m_aContainers {
+    SCR_ResourceContainer "{64E11B93A03F9939}" {
+     m_eResourceRights SELF
+     m_eStorageType STORED
+     m_fResourceValueCurrent 250
+     m_fResourceValueMax 250
+     m_fResourceGain 0
+     m_fResourceGainTickrate 0
+     m_fResourceGainTimeout 0
+     m_fResourceDecay 0
+     m_fResourceDecayTickrate 0
+     m_fResourceDecayTimeout 0
+    }
+   }
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE1BACBF53C75}" {
+   m_iFallbackItemSupplyCost 20
+  }
+  SCR_UniversalInventoryStorageComponent "{5E4E8A7AD05A2F1D}" {
+   Attributes SCR_ItemAttributeCollection "{5E4E8A7B47FC0CE7}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Item_RearmingKit_USSR_Name"
+    }
+   }
+  }
+ }
+}

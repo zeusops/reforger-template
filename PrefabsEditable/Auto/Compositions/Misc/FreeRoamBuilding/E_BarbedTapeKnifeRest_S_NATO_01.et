@@ -1,0 +1,47 @@
+GenericEntity : "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E989985BBA38F7D}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_BarbedTape_KnifeRest_Name"
+    Description "#AR-EditableEntity_BarbedTape_KnifeRest_Name"
+    m_Image "{12699D3881483670}UI/Textures/EditorPreviews/Auto/Compositions/Misc/FreeRoamBuilding/E_BarbedTapeKnifeRest_S_US_01.edds"
+    m_sFaction "NATO"
+    m_aAuthoredLabels {
+     108 -1889967296
+    }
+    m_aAutoLabels {
+     1 121
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{649518D00D001807}" {
+      m_BudgetType CAMPAIGN
+      m_Value 40
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{649518D00D00181D}" {
+      m_BudgetType PROPS
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{649518D00D001815}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{649518D00D0018E8}" {
+     m_Prefab "{1DB9C9CAEA70E7E5}PrefabsEditable/Auto/Props/Military/Fortification/E_BarbedTape_KnifeRest.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5D6C8152C7745DA2"
+   Flags 1048576
+  }
+ }
+}
