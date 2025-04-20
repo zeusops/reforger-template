@@ -1,0 +1,12 @@
+GenericEntity : "{73604060A04CBB85}Prefabs/Compositions/Slotted/SlotFlatSmall/FuelStorage_S_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E690689A41BCBDA}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_aAutoLabels + {
+     -1891967296
+    }
+   }
+  }
+ }
+}

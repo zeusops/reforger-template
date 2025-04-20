@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EAA5B9B5BA5674C2}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/NATO_MARSOC_Grenadier.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

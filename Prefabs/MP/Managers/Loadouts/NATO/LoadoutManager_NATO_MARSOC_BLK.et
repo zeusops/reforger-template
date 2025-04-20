@@ -3,37 +3,49 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{646765297F9D0AA6}" {
    m_sLoadoutName "Rifleman"
-   m_sLoadoutResource "{DE328C2CA84C7090}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLK/NATO_MARSOC_BLK_Rifleman.et"
+   m_sLoadoutResource "{9BCAFE0A463AA7F0}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLACK/NATO_MARSOC_Blk_Rifleman.et"
+   m_sLoadoutImage "{2B0877799B9B6C66}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Rifleman.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+  SCR_FactionPlayerLoadout "{65116E2D5E36D5CE}" {
+   m_sLoadoutName "Engineer"
+   m_sLoadoutResource "{5949A26D3BB19F9C}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLACK/NATO_MARSOC_Blk_Engineer.et"
    m_sLoadoutImage "{2B0877799B9B6C66}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Rifleman.edds"
    m_sAffiliatedFaction "NATO"
   }
   SCR_FactionPlayerLoadout "{646765297D9F6A72}" {
    m_sLoadoutName "Medic"
-   m_sLoadoutResource "{4E1D784E869C0DB8}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLK/NATO_MARSOC_BLK_Medic.et"
+   m_sLoadoutResource "{4E1D784E869C0DB8}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLACK/NATO_MARSOC_Blk_Medic.et"
    m_sLoadoutImage "{8D3E9B959DCE2B60}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Medic.edds"
    m_sAffiliatedFaction "NATO"
   }
   SCR_FactionPlayerLoadout "{646765297C9DA906}" {
    m_sLoadoutName "Autorifleman"
-   m_sLoadoutResource "{AA8F794E4713CC8C}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLK/NATO_MARSOC_BLK_AR.et"
+   m_sLoadoutResource "{41A978590F1A840B}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLACK/NATO_MARSOC_Blk_Autorifleman.et"
    m_sLoadoutImage "{D68798DF09F5BE8E}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_MG.edds"
    m_sAffiliatedFaction "NATO"
   }
   SCR_FactionPlayerLoadout "{64676529739E530E}" {
    m_sLoadoutName "Anti Tank"
-   m_sLoadoutResource "{7227108F3E9AD2D0}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLK/NATO_MARSOC_BLK_AT.et"
+   m_sLoadoutResource "{87289844F1E32C1E}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLACK/NATO_MARSOC_Blk_Antitank.et"
    m_sLoadoutImage "{278C426C1D3B4C27}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_LAT.edds"
    m_sAffiliatedFaction "NATO"
   }
   SCR_FactionPlayerLoadout "{64E0E37F74DFF16F}" {
    m_sLoadoutName "Marksman"
-   m_sLoadoutResource "{C9710359CEBA6AE7}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLK/NATO_MARSOC_BLK_Marksman.et"
+   m_sLoadoutResource "{C9710359CEBA6AE7}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLACK/NATO_MARSOC_Blk_Marksman.et"
+   m_sLoadoutImage "{13AC78F098028758}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Sniper.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+  SCR_FactionPlayerLoadout "{65116E2EA3F85119}" {
+   m_sLoadoutName "Grenadier"
+   m_sLoadoutResource "{031A79ADA839F560}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLACK/NATO_MARSOC_Blk_Grenadier.et"
    m_sLoadoutImage "{13AC78F098028758}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Sniper.edds"
    m_sAffiliatedFaction "NATO"
   }
   SCR_FactionPlayerLoadout "{6467652972ADB118}" {
    m_sLoadoutName "Squad Lead"
-   m_sLoadoutResource "{C707885175976E9F}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLK/NATO_MARSOC_BLK_SL.et"
+   m_sLoadoutResource "{B4FFB1B6474168EB}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/BLACK/NATO_MARSOC_Blk_Squadlead.et"
    m_sLoadoutImage "{34E9DBD5693E1B7F}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_TL.edds"
    m_sAffiliatedFaction "NATO"
   }

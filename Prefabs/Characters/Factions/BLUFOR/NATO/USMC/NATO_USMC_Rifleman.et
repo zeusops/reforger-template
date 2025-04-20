@@ -1,6 +1,18 @@
 SCR_ChimeraCharacter : "{7CF89717D4DCACFB}Prefabs/Characters/Factions/BLUFOR/NATO/USMC/NATO_USMC_BaseLoadout.et" {
  ID "520EC961A090BBD5"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{2B0877799B9B6C66}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Rifleman.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DF5E987AB3924A0A}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_lc_c.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{64E60A00B0AC51DD}" {

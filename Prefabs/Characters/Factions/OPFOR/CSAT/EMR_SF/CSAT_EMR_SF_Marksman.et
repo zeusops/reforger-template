@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{A4E00D050AA16EAB}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{A4E00D050AA16EAB}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -14,15 +14,16 @@ SCR_ChimeraCharacter : "{A4E00D050AA16EAB}Prefabs/Characters/Factions/OPFOR/CSAT
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Marksman"
+    Name "Marksman - EMR SF"
     Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_Image "{0CF9D23295990004}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Marksman.edds"
     m_aAutoLabels {
      122 47
     }
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{F44A9C628408B6CF}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_1P21.et"
+   WeaponTemplate "{C828F6D563E1A9BE}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO_7N14.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {

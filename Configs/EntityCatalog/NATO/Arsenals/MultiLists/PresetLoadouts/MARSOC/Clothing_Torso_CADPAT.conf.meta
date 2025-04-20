@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BAFFAE549B58F962}Configs/EntityCatalog/NATO/Arsenals/MultiLists/Clothing/Clothing_Torso_CADPAT.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

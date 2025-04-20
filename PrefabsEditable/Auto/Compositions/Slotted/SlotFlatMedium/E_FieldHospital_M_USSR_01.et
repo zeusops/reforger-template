@@ -1,0 +1,12 @@
+GenericEntity : "{2ACE3A315F531CFD}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_USSR_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{620EE566399DA64A}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_aAutoLabels + {
+     -1891967296
+    }
+   }
+  }
+ }
+}

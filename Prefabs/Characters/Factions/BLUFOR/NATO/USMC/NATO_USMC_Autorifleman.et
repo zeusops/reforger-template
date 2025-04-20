@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{7CF89717D4DCACFB}Prefabs/Characters/Factions/BLUFOR/NATO/USMC/NATO_USMC_BaseLoadout.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Autorifleman"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_aAutoLabels {
+     122 43
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{D688A947EBC71A04}Prefabs/Weapons/MachineGuns/M249/MG_M249_PIP.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64E60A00B0AC51A1}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{64E60A00B0AC51BE}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{64E60A00B0AC51BD}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{64E60A00B0AC5187}" {
+     PrefabsToSpawn + {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

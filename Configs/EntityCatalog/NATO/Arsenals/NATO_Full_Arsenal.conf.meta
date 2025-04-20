@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E6923A04A798F731}Configs/EntityCatalog/NATO/Arsenals/NATO_Full_InventoryItems.conf"
+ Name "{83745072CD9A715F}Configs/EntityCatalog/US/NATO_FullArsenal.conf"
  Configurations {
   CONFResourceClass PC {
   }

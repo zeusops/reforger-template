@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7CEBECD6FD380520}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MortarPlacement_S_US_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,12 @@
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{605ED84588DC47CC}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_aAutoLabels + {
+     -1891967296
+    }
+   }
+  }
+ }
+}

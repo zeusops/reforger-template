@@ -36,6 +36,8 @@ SCR_BaseGameMode : "{ECEEDB2D3737204B}Prefabs/Systems/ScenarioFramework/GameMode
       }
      }
      SCR_CallInSupportContainer "{624ED090108265B6}" {
+      m_iRequestUsageLimit 1
+      m_iRequestCooldown 5
       m_aAvialableForFactions + {
        "CSAT"
       }
@@ -49,6 +51,7 @@ SCR_BaseGameMode : "{ECEEDB2D3737204B}Prefabs/Systems/ScenarioFramework/GameMode
       }
      }
      SCR_CallInSupportContainer "{624ED0900F1BAFE1}" {
+      m_iRequestUsageLimit 3
       m_iRequestCooldown 5
       m_aAvialableForFactions + {
        "CSAT"
@@ -61,7 +64,8 @@ SCR_BaseGameMode : "{ECEEDB2D3737204B}Prefabs/Systems/ScenarioFramework/GameMode
       }
      }
      SCR_CallInSupportContainer "{625128CEE70F67FD}" {
-      m_iRequestUsageLimit 1
+      m_iRequestUsageLimit 3
+      m_iRequestCooldown 5
       m_aAvialableForFactions + {
        "CSAT"
       }
@@ -78,8 +82,144 @@ SCR_BaseGameMode : "{ECEEDB2D3737204B}Prefabs/Systems/ScenarioFramework/GameMode
     }
    }
   }
-  SCR_AdditionalGameModeSettingsComponent "{6170E11C3C452ACC}" {
-   Enabled 0
+  SCR_CampaignBuildingManagerComponent "{6512A38E84E648B4}" {
+   m_sFreeRoamBuildingClientTrigger "{5E191CEAF4B95816}Prefabs/MP/FreeRoamBuildingClientTrigger.et"
+   m_BudgetType CAMPAIGN
+   m_iCompositionRefundPercentage 100
+   m_OutlineManager SCR_CampaignBuildingCompositionOutlineManager "{6512A38EEC818F13}" {
+    m_sSlotFlatSmallLayout "{7FD4E6A668B4537A}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotFLatSmall.et"
+    m_sSlotFlatMediumLayout "{579FF731013436B5}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotFlatMedium.et"
+    m_sSlotFlatLargeLayout "{D06D9D47008E794F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadLarge.et"
+    m_sSlotRoadSmallLayout "{8DBA7E7BF662A393}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadSmall.et"
+    m_sSlotRoadMediumLayout "{3A5E87ADA26C6940}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadMedium.et"
+    m_sSlotRoadLargeLayout "{D06D9D47008E794F}Prefabs/Compositions/Misc/FreeRoamBuilding/Layouts/FRB_SlotRoadLarge.et"
+    m_aCompositionLayouts {
+     SCR_CampaignBuildingCompositionOutline "{5D34D094366A7550}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72F0270133FB37}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E5F0CB45E2A23A7}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72F02746156600}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D34D092A3936AEF}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D62992D16358CB8}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D66BBDB8EC3B5AB}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D6C8153F1E8DE35}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D6C90E24B82ACDA}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70BA35862CBAFA}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70E0D34990A444}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70E6DFBDA31CD7}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D70E6DFBD43B548}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D7279EF17063959}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D7279EF1720B169}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D7279EF08F63D30}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72CCC764A2F661}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72D426E04FAF9C}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72D426E39D1C18}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72D426E3AD6268}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5D72F0241E59B4E6}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E64B54CA767DC45}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E64CB149EC493F2}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E64CB1491E75290}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E76DD003E31C9B9}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84B741B345270B}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84B741F2EDD817}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84B928D2DC9B20}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84C8B46847646C}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84C8B4680E1AE5}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84D70A8FCD3C63}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84D70A8FEA660C}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE08853459C4}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0885209F52}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0886C48CC7}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0886EA1694}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE088695C569}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E84DE0CF28B4478}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98DBC39DC37}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98DBDDCE7AB}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98BB2A97FE4}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B98BB2558DB9}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B9874A7B27EA}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E86B9874A0B7600}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AECC1CA3}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AE8B0AAD}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B055AE171BE0}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A7701A2A8}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A77205ED6}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B04A5552879A}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B0489E3AA298}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B0489FDBAB79}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F1D6FD63}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F1F57EA3}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B046F18FA42C}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B07DCA32C81F}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E88B07DCBD32DB3}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E1480BD64}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E14A6F5FF}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E760349A1}" {
+     }
+     SCR_CampaignBuildingCompositionOutline "{5E8A722E77DFEFBE}" {
+     }
+    }
+   }
+   m_sPrefabsToBuildResource "{D2527D9AA5B4A33E}Configs/Editor/PlaceableEntities/Compositions/Compositions_FreeRoamBuilding.conf"
+   m_sPrefabToHoldSupplyOnRefund "{4BBE0A784C01900E}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_FreeRoamBuilding.et"
   }
   SCR_CommandingManagerComponent "{64CB250099D3AA9A}" {
   }
@@ -91,9 +231,12 @@ SCR_BaseGameMode : "{ECEEDB2D3737204B}Prefabs/Systems/ScenarioFramework/GameMode
   SCR_GameModeSFManager "{5A96783ABCA252AE}" {
    m_bDynamicDespawn 1
   }
+  SCR_GameOverScreenManagerComponent "{56DEC646298AD219}" {
+   m_fShowEndscreenDelay 5
+  }
   SCR_GroupsManagerComponent "{5706EC99934496F5}" {
    m_iPlayableGroupFrequencyOffset 1000
-   m_iPlayableGroupFrequencyMin 40000
+   m_iPlayableGroupFrequencyMin 48100
    m_iPlayableGroupFrequencyMax 60100
   }
   SCR_NametagConfigComponent "{571AA9E54FC9210D}" {
@@ -103,9 +246,16 @@ SCR_BaseGameMode : "{ECEEDB2D3737204B}Prefabs/Systems/ScenarioFramework/GameMode
    m_bShowPlayerLeftNotification 0
    m_iKillFeedType DISABLED
   }
+  SCR_PerceivedFactionManagerComponent "{61AA7E6E0C6A76F9}" {
+   m_eCharacterPerceivedFactionOutfitType FULL_OUTFIT
+   m_bPerceivedFactionChangesAffectsAI 1
+  }
   SCR_PlayerSpawnPointManagerComponent "{64CB250099D3AB6E}" {
+   m_SpawnPointPrefab "{456EFDDA59DD6EB2}Prefabs/MP/PlayerRadioSpawnPoint.et"
+   m_bEnablePlayerSpawnPoints 0
    m_bRadioVehicleSpawningEnabled 1
    m_bDeployableSpawnPointsEnabled 0
+   m_eDeployableSpawnPointBudgetType NONE
   }
   SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
    m_SpawnLogic SCR_MenuSpawnLogic "{5D36888CC966608A}" {
@@ -118,43 +268,6 @@ SCR_BaseGameMode : "{ECEEDB2D3737204B}Prefabs/Systems/ScenarioFramework/GameMode
    m_fProtectionTime 5
   }
   SCR_TimeAndWeatherHandlerComponent "{64F54C0CAC4F6C9A}" {
-  }
-  SCR_WelcomeScreenComponent "{64CB250099D3AB63}" {
-   m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{64CB250099D3AB60}" {
-    m_LeftColumn SCR_WelcomeScreenIntroductionContent "{64CB250099D3AB61}" {
-     m_bIsInteractible 1
-     m_sTitleText "Welcome To Zeusops"
-     m_aIntroduction {
-      SCR_WelcomeScreenIntroduction "{64CB250099D3AB67}" {
-       m_sContentImage "{C79E9959020E0630}images/ZeusOps.edds"
-       m_sContentTitleText "ZeusOps Server Info"
-       m_sContentDescriptionText "https://www.zeusops.com/ Teamspeak: ts.zeusops.com"
-      }
-     }
-    }
-    m_MiddleColumn SCR_WelcomeScreenIntroductionContent "{64CB250099D3AB7C}" {
-     m_bIsInteractible 1
-     m_sTitleText "Mission Brief"
-     m_aIntroduction {
-      SCR_WelcomeScreenIntroduction "{64CB250099D3AB7D}" {
-       m_sContentImage "{22332A1418648704}UI/Textures/MissionLoadingScreens/placeholder_3_UI.edds"
-       m_sContentTitleText "Mission Brief"
-       m_sContentDescriptionText "Placeholder brief info"
-      }
-     }
-    }
-    m_RightColumn SCR_WelcomeScreenIntroductionContent "{64CB250099D3AB72}" {
-     m_bIsInteractible 1
-     m_sTitleText "Mission Guidelines"
-     m_aIntroduction {
-      SCR_WelcomeScreenIntroduction "{64CB250099D3AB73}" {
-       m_sContentImage "{3E0FA284638A98B0}UI/Textures/MissionLoadingScreens/placeholder_5_UI.edds"
-       m_sContentTitleText "Gear Rules:"
-       m_sContentDescriptionText "Placeholder Rules"
-      }
-     }
-    }
-   }
   }
  }
 }

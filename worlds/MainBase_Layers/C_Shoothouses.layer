@@ -1,0 +1,25 @@
+SCR_DestructibleBuildingEntity : "{38A5F3E4578087AB}Prefabs/Structures/Houses/Town/House_Town_E_2I01/House_Town_E_2I01.et" {
+ coords 1032.092 0.684 1956.659
+ angleY 34.016
+}
+SCR_DestructibleBuildingEntity : "{54F1C704EB440885}Prefabs/Structures/Houses/Town/House_Town_E_2I02/House_Town_E_2I02.et" {
+ coords 1045.182 0.331 1948.742
+ angleY -146.934
+}
+SCR_DestructibleBuildingEntity : "{5CADC96916FF1CC4}Prefabs/Structures/Houses/Villa/Villa_E_2I01/Villa_E_2I01.et" {
+ coords 1014.657 1.982 1983.214
+ angleY -135.27
+}
+SCR_SpawnPoint : "{975269DB676618E4}Prefabs/MP/Spawning/SpawnPoint_NATO.et" {
+ coords 1074.477 12.426 1937.282
+ angleY -83.814
+ m_sFaction "NATO"
+ m_bTimedSpawnPoint 0
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "Shoothouses"
+ }
+}
+GenericEntity : "{BCB60D50C8128205}Prefabs/Props/Military/Arsenal/ArsenalBoxes/NATO/ArsenalBox_NATO.et" {
+ coords 1072.487 12.75 1940.293
+ angleY 87.206
+}

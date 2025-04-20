@@ -3,45 +3,72 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{64E10C76167B5A89}" {
    m_sLoadoutName "Rifleman"
-   m_sLoadoutResource "{CD66C072CEDD0DBD}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_Rifleman.et"
+   m_sLoadoutResource "{CD66C072CEDD0DBD}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Rifleman.et"
+   m_sLoadoutImage "{B3CBDB96C5D08BD3}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Rifleman.edds"
+   m_sAffiliatedFaction "CSAT"
+  }
+  SCR_FactionPlayerLoadout "{651140B2FC38C435}" {
+   m_sLoadoutName "Engineer"
+   m_sLoadoutResource "{6EE95C3E38DDD76D}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Engineer.et"
    m_sLoadoutImage "{B3CBDB96C5D08BD3}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Rifleman.edds"
    m_sAffiliatedFaction "CSAT"
   }
   SCR_FactionPlayerLoadout "{64E10C76167B5AF4}" {
    m_sLoadoutName "Medic"
-   m_sLoadoutResource "{F4C534238232371B}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_Medic.et"
+   m_sLoadoutResource "{F4C534238232371B}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Medic.et"
    m_sLoadoutImage "{EC2B8F2DADDCFE5E}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Medic.edds"
    m_sAffiliatedFaction "CSAT"
   }
   SCR_FactionPlayerLoadout "{64E10C76167B5AF8}" {
    m_sLoadoutName "Autorifleman"
-   m_sLoadoutResource "{E610F2424F7FF76B}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_AR.et"
+   m_sLoadoutResource "{E610F2424F7FF76B}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Autorifleman.et"
    m_sLoadoutImage "{A1C8CA279CABBAED}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AR.edds"
    m_sAffiliatedFaction "CSAT"
   }
   SCR_FactionPlayerLoadout "{64E10C76167B5AE3}" {
    m_sLoadoutName "Anti Tank"
-   m_sLoadoutResource "{3EB89B8336F6E937}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_AT.et"
+   m_sLoadoutResource "{3EB89B8336F6E937}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_AntiTank.et"
    m_sLoadoutImage "{1C1898A0E3B0A6F3}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_AT.edds"
    m_sAffiliatedFaction "CSAT"
   }
   SCR_FactionPlayerLoadout "{64E10C76167B5AE1}" {
    m_sLoadoutName "Marksman"
-   m_sLoadoutResource "{9FDD3D21465DC0AA}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_Marksman.et"
+   m_sLoadoutResource "{9FDD3D21465DC0AA}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Marksman.et"
    m_sLoadoutImage "{103A91EFE54E6FC8}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_Sharpshooter.edds"
+   m_sAffiliatedFaction "CSAT"
+  }
+  SCR_FactionPlayerLoadout "{651140B5CB027A00}" {
+   m_sLoadoutName "Grenadier"
+   m_sLoadoutResource "{8781E7D7812F3D3B}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Grenadier.et"
+   m_sLoadoutImage "{7BF2B1F120295CA3}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_GL.edds"
    m_sAffiliatedFaction "CSAT"
   }
   SCR_FactionPlayerLoadout "{64E10C76167B5AE5}" {
    m_sLoadoutName "Squad Lead"
-   m_sLoadoutResource "{8B98035D7DFB5578}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_SL.et"
-   m_sLoadoutImage "{044D72AA48ED0E87}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_SL.edds"
+   m_sLoadoutResource "{8B98035D7DFB5578}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_SquadLead.et"
+   m_sLoadoutImage "{0EE822E7FEFDFD00}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_Summer/Character_RHS_RF_MSV_VKPO_S_PL.edds"
    m_sAffiliatedFaction "CSAT"
   }
   SCR_PlayerArsenalLoadout "{64E10C76167B5AEA}" {
-   m_sLoadoutName "Saved Loadout"
-   m_sLoadoutResource "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et"
+   m_sLoadoutName "Saved Loadout 1"
+   m_sLoadoutResource "{A4E00D050AA16EAB}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Base.et"
    m_sLoadoutImage "{6A8FF7A3F9007CD0}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Rifleman.edds"
    m_sAffiliatedFaction "CSAT"
+   m_sWCSSlotId "Slot1"
+  }
+  SCR_PlayerArsenalLoadout "{6517103AF3A771B0}" {
+   m_sLoadoutName "Saved Loadout 2"
+   m_sLoadoutResource "{A4E00D050AA16EAB}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Base.et"
+   m_sLoadoutImage "{6A8FF7A3F9007CD0}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Rifleman.edds"
+   m_sAffiliatedFaction "CSAT"
+   m_sWCSSlotId "Slot2"
+  }
+  SCR_PlayerArsenalLoadout "{6517103AF0055092}" {
+   m_sLoadoutName "Saved Loadout 3"
+   m_sLoadoutResource "{A4E00D050AA16EAB}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Base.et"
+   m_sLoadoutImage "{6A8FF7A3F9007CD0}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Rifleman.edds"
+   m_sAffiliatedFaction "CSAT"
+   m_sWCSSlotId "Slot3"
   }
  }
 }

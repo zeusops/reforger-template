@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A3CBE9A9731E6712}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/MC/NATO_MARSOC_MC_Engineer.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

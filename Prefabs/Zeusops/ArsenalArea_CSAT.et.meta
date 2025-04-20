@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D8F099B16B7C29EF}Prefabs/Compositions/Slotted/SlotFlatSmall/ArsenalArea_CSAT.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

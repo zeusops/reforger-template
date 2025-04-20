@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0D52ED38E53AE12D}Configs/EntityCatalog/NATO/Arsenals/MultiLists/PresetLoadouts/Clothing_Torso_USMC.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

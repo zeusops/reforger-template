@@ -17,7 +17,11 @@ SCR_SpawnPoint : "{E7F4D5562F48DDE4}Prefabs/MP/Spawning/SpawnPoint_Base.et" {
    DisplayName "Main Base"
    VisibleOnMap 1
   }
+  RplComponent "{552E67F19D2F2A2F}" {
+   Streamable Enabled
+  }
  }
+ Flags 259
  m_sFaction "CSAT"
  m_bTimedSpawnPoint 1
  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {

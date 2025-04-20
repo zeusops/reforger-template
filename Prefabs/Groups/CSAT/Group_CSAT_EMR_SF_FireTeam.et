@@ -1,0 +1,106 @@
+SCR_AIGroup : "{EACD97CF4A702FAE}Prefabs/Groups/BLUFOR/Group_US_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Fire Team - EMR SF"
+    m_Image "{3968CF05EC1FF1E7}UI/Textures/EditorPreviews/Groups/OPFOR/RHS_RF_MSV/EMR/Group_MSV_EMR_FireGroup.edds"
+    m_sFaction "CSAT"
+    m_aAuthoredLabels {
+     4 -1891967296 10506 25 34 38
+    }
+    m_aAutoLabels {
+     71
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 300
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{6512A3E7389AB435}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{6512A3E7389AB428}" {
+     m_Identity OPFOR
+     m_Dimension LAND
+     m_Icons INFANTRY
+     m_Amplifier TEAM
+    }
+   }
+  }
+  SCR_GroupIdentityComponent "{56366C5C50AD3CF2}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{56366C5C4E32A359}" {
+    m_Identity OPFOR
+    m_Icons INFANTRY
+    m_Amplifier TEAM
+   }
+  }
+  SCR_PreviewEntityComponent "{5636898C2943AB0C}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{6512A3E7389AB41F}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6512A3E7389AB41D}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6512A3E7389AB416}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6512A3E7389AB417}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{6512A3E7389AB415}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ m_faction "CSAT"
+ m_aUnitPrefabSlots {
+  "{CD66C072CEDD0DBD}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Rifleman.et" "{E610F2424F7FF76B}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Autorifleman.et" "{8781E7D7812F3D3B}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Grenadier.et" "{3EB89B8336F6E937}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_AntiTank.et"
+ }
+}

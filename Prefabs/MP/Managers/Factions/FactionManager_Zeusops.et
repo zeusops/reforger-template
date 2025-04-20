@@ -7,4 +7,53 @@ SCR_FactionManager : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionMana
    m_bIsPlayable 0
   }
  }
+ m_aRanks {
+  SCR_RankID "{5CB0777E83631136}" {
+   m_iRank CUSTOM1
+  }
+  SCR_RankID "{6526E997803AA21F}" {
+  }
+  SCR_RankID "{6526E99780FEF319}" {
+   m_iRank CORPORAL
+   m_iRequiredXP 200
+  }
+  SCR_RankID "{6526E997CADB20A3}" {
+   m_iRank SERGEANT
+   m_iRequiredXP 225
+  }
+  SCR_RankID "{6526E99787E1DC8C}" {
+   m_iRank CUSTOM2
+   m_iRequiredXP 250
+  }
+  SCR_RankID "{6526E99786C3223E}" {
+   m_iRank CUSTOM3
+   m_iRequiredXP 300
+  }
+  SCR_RankID "{6526E99785BABD2B}" {
+   m_iRank CUSTOM4
+   m_iRequiredXP 350
+  }
+  SCR_RankID "{5CB0777E828E61F3}" {
+   m_iRank CUSTOM5
+   m_iRequiredXP 400
+  }
+  SCR_RankID "{5CB0777E803B7EA2}" {
+   m_iRank CUSTOM6
+   m_iRequiredXP 450
+  }
+  SCR_RankID "{5CB0777E8F0E82AF}" {
+   m_iRank CAPTAIN
+  }
+  SCR_RankID "{5CB0777E8BE66EC2}" {
+   m_iRank MAJOR
+  }
+  SCR_RankID "{5CB0777E8AD658D6}" {
+   m_iRank COLONEL
+  }
+  SCR_RankID "{5CB0777E88380770}" {
+   m_iRank RENEGADE
+   m_bIsRenegade 1
+   m_iRequiredXP -100
+  }
+ }
 }

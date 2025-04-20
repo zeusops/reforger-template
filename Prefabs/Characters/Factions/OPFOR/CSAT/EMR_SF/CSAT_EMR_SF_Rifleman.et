@@ -1,10 +1,11 @@
-SCR_ChimeraCharacter : "{A4E00D050AA16EAB}Prefabs/Characters/Factions/OPFOR/CSAT/Character_EMR_SF_CSAT_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{A4E00D050AA16EAB}Prefabs/Characters/Factions/OPFOR/CSAT/EMR_SF/CSAT_EMR_SF_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Rifleman"
+    Name "Rifleman - EMR SF"
     Icon "{AE53796BC5D21A08}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Rifleman.edds"
+    m_Image "{5B08418C2FA1FFEF}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/VV/RG/Atacs/Character_RHS_RF_SOF_Rifleman.edds"
     m_aAutoLabels {
      122 46
     }

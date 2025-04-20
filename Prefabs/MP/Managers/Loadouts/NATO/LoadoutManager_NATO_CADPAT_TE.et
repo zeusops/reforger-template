@@ -3,37 +3,49 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
  m_aPlayerLoadouts {
   SCR_FactionPlayerLoadout "{64D6E46595FA27A7}" {
    m_sLoadoutName "Rifleman"
-   m_sLoadoutResource "{5D572BA87ED4E38F}Prefabs/Characters/Factions/BLUFOR/NATO/CADPAT/NATO_CADPAT_TE_Rifleman.et"
+   m_sLoadoutResource "{5D572BA87ED4E38F}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/CADPAT/NATO_CADPAT_TE_Rifleman.et"
+   m_sLoadoutImage "{2B0877799B9B6C66}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Rifleman.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+  SCR_FactionPlayerLoadout "{65116E2EFE9916CE}" {
+   m_sLoadoutName "Engineer"
+   m_sLoadoutResource "{8A06A17869ADB1C3}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/CADPAT/NATO_CADPAT_TE_Engineer.et"
    m_sLoadoutImage "{2B0877799B9B6C66}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Rifleman.edds"
    m_sAffiliatedFaction "NATO"
   }
   SCR_FactionPlayerLoadout "{64D6E46595FA27B1}" {
    m_sLoadoutName "Medic"
-   m_sLoadoutResource "{92AC5F6C18822CEF}Prefabs/Characters/Factions/BLUFOR/NATO/CADPAT/NATO_CADPAT_TE_Medic.et"
+   m_sLoadoutResource "{92AC5F6C18822CEF}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/CADPAT/NATO_CADPAT_TE_Medic.et"
    m_sLoadoutImage "{8D3E9B959DCE2B60}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Medic.edds"
    m_sAffiliatedFaction "NATO"
   }
   SCR_FactionPlayerLoadout "{64D6E46595FA27B5}" {
    m_sLoadoutName "Autorifleman"
-   m_sLoadoutResource "{0FFE23EF8B1FB4B6}Prefabs/Characters/Factions/BLUFOR/NATO/CADPAT/NATO_CADPAT_TE_AR.et"
+   m_sLoadoutResource "{0FFE23EF8B1FB4B6}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/CADPAT/NATO_CADPAT_TE_Autorifleman.et"
    m_sLoadoutImage "{D68798DF09F5BE8E}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_MG.edds"
    m_sAffiliatedFaction "NATO"
   }
   SCR_FactionPlayerLoadout "{64D6E46595FA278E}" {
    m_sLoadoutName "Anti Tank"
-   m_sLoadoutResource "{D7564A2EF296AAEA}Prefabs/Characters/Factions/BLUFOR/NATO/CADPAT/NATO_CADPAT_TE_AT.et"
+   m_sLoadoutResource "{D7564A2EF296AAEA}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/CADPAT/NATO_CADPAT_TE_AntiTank.et"
    m_sLoadoutImage "{278C426C1D3B4C27}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_LAT.edds"
    m_sAffiliatedFaction "NATO"
   }
   SCR_FactionPlayerLoadout "{64E0E37F14E429F9}" {
    m_sLoadoutName "Marksman"
-   m_sLoadoutResource "{0FECD6FBF6542E98}Prefabs/Characters/Factions/BLUFOR/NATO/CADPAT/NATO_CADPAT_TE_Marksman.et"
+   m_sLoadoutResource "{0FECD6FBF6542E98}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/CADPAT/NATO_CADPAT_TE_Marksman.et"
+   m_sLoadoutImage "{13AC78F098028758}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Sniper.edds"
+   m_sAffiliatedFaction "NATO"
+  }
+  SCR_FactionPlayerLoadout "{65116E2EF5A28B61}" {
+   m_sLoadoutName "Grenadier"
+   m_sLoadoutResource "{C1CAD1E9499621D8}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/CADPAT/NATO_CADPAT_TE_Grenadier.et"
    m_sLoadoutImage "{13AC78F098028758}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Sniper.edds"
    m_sAffiliatedFaction "NATO"
   }
   SCR_FactionPlayerLoadout "{64D6E46595FA2783}" {
    m_sLoadoutName "Squad Lead"
-   m_sLoadoutResource "{6276D2F0B99B16A5}Prefabs/Characters/Factions/BLUFOR/NATO/CADPAT/NATO_CADPAT_TE_SL.et"
+   m_sLoadoutResource "{6276D2F0B99B16A5}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/CADPAT/NATO_CADPAT_TE_Squadlead.et"
    m_sLoadoutImage "{34E9DBD5693E1B7F}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_TL.edds"
    m_sAffiliatedFaction "NATO"
   }

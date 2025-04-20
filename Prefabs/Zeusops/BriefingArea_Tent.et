@@ -1,0 +1,46 @@
+GenericEntity : "{A2D50E1459CC19C1}Prefabs/Structures/Military/CamoNets/CamoNet_Base.et" {
+ ID "52F0B4B066AF5A23"
+ components {
+  ClimbingDataComponent "{5EDEE534EA0A0AF0}" {
+   Enabled 1
+   CanClimbOver 0
+  }
+  MeshObject "{52F0B4B05BC0C1F4}" {
+   Object "{8B80E4D12700C6DC}Assets/Structures/Military/CamoNets/CamoNet_Large.xob"
+  }
+  SCR_EditableEntityComponent "{6528B9DF71AF8553}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6528B9DF763A8E21}" {
+    Name "Briefing Area (Tent)"
+    m_Image "{B2BA1D2DDA578827}UI/Textures/EditorPreviews/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Large_Soviet.edds"
+    m_aAuthoredLabels {
+     -1891967296 -1889967296 5
+    }
+   }
+  }
+ }
+ coords -27.834 -9.756 -30.241
+ {
+  GenericEntity : "{3800AA04761AE0EC}Prefabs/Props/Civilian/Notebook_01_Single_Blue.et" {
+   ID "6510FEBAF5E98428"
+   coords -1.218 0.994 -3.373
+   angleY -179.378
+  }
+  GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+   ID "6510FEBAF5E9842F"
+   coords -2.303 0.994 -3.632
+  }
+  GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
+   ID "6510FEBAF5E98422"
+   coords -1.353 0.088 -3.669
+  }
+  GenericEntity : "{C84DF17F96616C76}Prefabs/Props/Military/Manuals/Manual_US_01.et" {
+   ID "6510FEBAF5E98420"
+   coords -1.773 0.994 -3.456
+  }
+  GenericEntity : "{D60220233693B077}Prefabs/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_unfolded_table.et" {
+   ID "6510FEBAF5E9843A"
+   coords -0.542 1 -3.866
+   angleY -90.453
+  }
+ }
+}

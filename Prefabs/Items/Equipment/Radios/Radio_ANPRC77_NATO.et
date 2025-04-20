@@ -9,18 +9,10 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    "Turned on" 1
    Transceivers {
     RadioTransceiver "{5EA4A89F0D06E18F}" {
-     ChannelFrequency 40000
-     "Transmitting Range" 8000
-     "Min tunable frequency" 40000
-     "Max tunable frequency" 60000
-     "Frequency resolution" 100
-    }
-    RadioTransceiver "{64A30DF262F28D50}" {
      ChannelFrequency 50000
      "Transmitting Range" 8000
-     "Min tunable frequency" 40000
-     "Max tunable frequency" 60000
-     "Frequency resolution" 100
+     "Max tunable frequency" 64000
+     "Frequency resolution" 1000
     }
    }
   }
@@ -61,7 +53,6 @@ GenericEntity : "{5879D8E9C56E358E}Prefabs/Items/Equipment/Radios/Radio_Deployab
    }
    UseCapacityCoefficient 0
    MaxCumulativeVolume 4000
-   MaxItemSize 20 20 20
    m_fMaxWeight 20
   }
  }

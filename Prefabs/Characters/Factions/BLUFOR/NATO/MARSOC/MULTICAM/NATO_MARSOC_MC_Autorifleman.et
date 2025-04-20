@@ -1,0 +1,42 @@
+SCR_ChimeraCharacter : "{A52AFB54A7B9353E}Prefabs/Characters/Factions/BLUFOR/NATO/MARSOC/MULTICAM/NATO_MARSOC_MC_Baseloadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Machinegunner"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    m_aAutoLabels {
+     122 43
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D688A947EBC71A04}Prefabs/Weapons/MachineGuns/M249/MG_M249_PIP.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{64E6D21340EADF41}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{64E6D21340EADF5F}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{64E6D21340EADF5D}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{64E6D21340EADF52}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{64E6D21340EADF53}" {
+     PrefabsToSpawn + {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

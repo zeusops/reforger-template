@@ -1,0 +1,70 @@
+GenericEntity : "{21B4CFCFAE632E30}PrefabsEditable/Auto/Props/Wrecks/E_T62_wreck.et" {
+ coords 1110.15 0.847 1819.708
+ angleY -169.231
+}
+StaticModelEntity : "{2675369BA358EFCC}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/DestructionEntities/E_CzechHedgehog_01_rusty_CompositionDestruction.et" {
+ coords 1104.988 -0.031 1808.26
+}
+GenericEntity : "{89FAE23A65BBB46E}Prefabs/Props/Military/CISS/SupplyDrop/Parts/US/EquipmentBoxResupply_US_Covered.et" {
+ coords 1106.528 0.664 1747.458
+ angleY 47.058
+}
+SCR_SpawnPoint : "{975269DB676618E4}Prefabs/MP/Spawning/SpawnPoint_NATO.et" {
+ coords 1103.703 1.394 1739.558
+ angleY 15.598
+ m_sFaction "NATO"
+ m_bTimedSpawnPoint 0
+ m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+  Name "Bounding Range"
+ }
+}
+GenericEntity : "{B8138FFE79F61D33}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_01.et" {
+ coords 1090.139 0.956 1828.731
+ angleY -143.368
+ {
+  GenericEntity {
+   ID "5CCCBEC9226E5216"
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     coords 0 0 0
+     angleX -89.96
+     angleY 180
+     angleZ -86.115
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{D447BB1EC532921D}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_02.et" {
+ coords 1097.835 0.937 1828.676
+ angleY 146.903
+ {
+  GenericEntity {
+   ID "5CCCBED36882D5D6"
+   {
+    DecalEntity {
+     ID "56DEFDB4A9499F9B"
+     coords -0.082 0 0
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "5CCCBED36882DAFD"
+   components {
+    Hierarchy "{61A4D5A6AD036F70}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{D99955DFCF7D3962}Prefabs/Props/Wrecks/CannonWreck_01.et" {
+ coords 1090.904 0.955 1829.967
+ angleY -140.745
+ scale 1.6
+}
+GenericEntity : "{FA34D99C60B233F0}PrefabsEditable/Auto/Props/Wrecks/E_S105_wreck.et" {
+ coords 1102.807 0.875 1797.508
+ angleY 62.471
+}

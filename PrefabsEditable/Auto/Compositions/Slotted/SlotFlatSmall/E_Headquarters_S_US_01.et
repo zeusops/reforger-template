@@ -1,0 +1,12 @@
+GenericEntity : "{D4DDD345A352E97B}Prefabs/Compositions/Slotted/SlotFlatSmall/Headquarters_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{620EE6CD9762B0DA}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_aAutoLabels + {
+     -1889967296
+    }
+   }
+  }
+ }
+}

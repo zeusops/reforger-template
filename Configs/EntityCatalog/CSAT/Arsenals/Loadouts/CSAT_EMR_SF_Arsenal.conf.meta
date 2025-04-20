@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{36C5356FB8974F87}Configs/EntityCatalog/CSAT/Arsenals/CSAT_EMR_SF_Arsenal.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

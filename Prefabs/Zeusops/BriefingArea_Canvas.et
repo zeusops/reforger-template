@@ -1,0 +1,70 @@
+GenericEntity : "{0FF0FC8E51278F86}Prefabs/Structures/Military/Camps/Canvas_Covers/CanvasCover_Base.et" {
+ ID "52F0B4ADDCC2C24E"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{E4FD0E74CDB6E9BA}Assets/Structures/Military/Camps/Canvas_Cover/CanvasCover_Large.xob"
+   Materials {
+    MaterialAssignClass "{6510FEBBC4FAAE93}" {
+     SourceMaterial "CanvasCover_Large"
+     AssignedMaterial "{220912428935BE47}Assets/Structures/Military/Camps/Canvas_Cover/Data/CanvasCover_Large_USSR.emat"
+    }
+    MaterialAssignClass "{6510FEBBC4FAAF67}" {
+     SourceMaterial "Color_palette"
+     AssignedMaterial "{74F9B49BD7F1D1AD}Common/Materials/ColorPalette/Color_palette_02_YELLOW_13_S3_R0.emat"
+    }
+   }
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+  SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+   m_DestroySpawnObjects {
+    SCR_DebrisSpawnable "{6510FEBBC4FAAF76}" {
+     m_ModelPrefabs {
+      "{841FD5F42C21DEA5}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_01.xob" "{1D016C6D31C6EF35}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_02.xob" "{6A0B04E5C5640045}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_03.xob" "{6DCCFEB4A3E2BA86}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_04.xob" "{1AC6963C574055F6}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_05.xob" "{83D82FA54AA76466}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_06.xob" "{FB5DB38F7308FE90}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_09.xob" "{071DFAE4D55E59A1}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_10.xob" "{F4D2472DBE058B16}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_07.xob" "{8C57DB0787AA11E0}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_08.xob" "{7017926C21FCB6D1}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_11.xob" "{E9092BF53C1B8741}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_12.xob" "{9E03437DC8B96831}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_13.xob" "{99C4B92CAE3FD2F2}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_14.xob" "{EECED1A45A9D3D82}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_15.xob"
+     }
+     m_eMaterialSoundType WOOD_PLANK_SMALL
+    }
+   }
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{6510FEBBC4FAAF4C}" {
+     m_fPhaseHealth 1500
+     m_PhaseModel "{77D0683D477A0C12}Assets/Structures/Military/Camps/Canvas_Cover/Dst/CanvasCover_Large_dst/CanvasCover_Large_dst_16.xob"
+    }
+   }
+  }
+  SCR_EditableEntityComponent "{6526D24FD891BB0F}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6528B9DF2B6A291A}" {
+    Name "Briefing Area (Canvas)"
+    m_Image "{FED947D827FA1854}UI/Textures/EditorPreviews/Auto/Structures/Military/Camps/Canvas_Covers/US/E_CanvasCover_Large_US.edds"
+    m_aAuthoredLabels {
+     -1889967296 -1891967296 5
+    }
+   }
+  }
+ }
+ {
+  GenericEntity : "{3800AA04761AE0EC}Prefabs/Props/Civilian/Notebook_01_Single_Blue.et" {
+   ID "6510FEBB75B5A979"
+   coords 0.135 0.906 1.129
+   angleY -179.378
+  }
+  GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+   ID "6510FEBB75B5A940"
+   coords -0.95 0.906 0.87
+  }
+  GenericEntity : "{757FCCE8E756175C}Prefabs/Props/Furniture/MeetingTable_01.et" {
+   ID "6510FEBB3776C3F9"
+   coords 0 0 0.833
+  }
+  GenericEntity : "{C84DF17F96616C76}Prefabs/Props/Military/Manuals/Manual_US_01.et" {
+   ID "6510FEBB75B5A887"
+   coords -0.42 0.906 1.046
+  }
+  GenericEntity : "{D60220233693B077}Prefabs/Items/Equipment/Maps/Map_Paper_01/Map_Paper_01_unfolded_table.et" {
+   ID "6510FEBB75B5A954"
+   coords 0.811 0.912 0.636
+   angleY -90.453
+  }
+ }
+}

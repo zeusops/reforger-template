@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{098723453F3836EA}Configs/EntityCatalog/NATO/Arsenals/MultiLists/Loadouts/Clothing_Legs_MARSOC.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

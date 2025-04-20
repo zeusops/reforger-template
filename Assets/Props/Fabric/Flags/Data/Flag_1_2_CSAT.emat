@@ -1,6 +1,6 @@
 MatPBRBasic {
  Cull none
- BCRMap "{6315163383CCC373}images/CSAT/csat.edds"
+ BCRMap "{3A48E91E4B7FC510}Assets/Props/Fabric/Flags/Data/Flag_1_2_CSAT.edds"
  NormalPower 1.2
  NMOMap "{C39D234EF0D4B94D}Assets/Props/Fabric/Flags/Data/Flag_1_2_N.edds"
  DetailNormalPower 0.35

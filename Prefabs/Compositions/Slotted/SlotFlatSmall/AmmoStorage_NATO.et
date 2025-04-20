@@ -16,6 +16,7 @@ GenericEntity : "{7C367E9261376345}Prefabs/Compositions/Slotted/SlotFlatSmall/Am
    }
   }
  }
+ coords 75.883 0 62.998
  {
   GenericEntity {
    ID "5D06E957D858060A"

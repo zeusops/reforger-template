@@ -1,4 +1,5 @@
 SCR_AIGroup {
  ID "56FC873F6D4EEACC"
- m_iGroupRadioFrequency 49100
+ m_iGroupRadioFrequency 48100
+ m_bDeleteIfNoPlayer 0
 }

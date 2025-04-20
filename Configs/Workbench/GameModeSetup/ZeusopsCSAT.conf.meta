@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E6F0DF4D03D5BA6F}Configs/Workbench/GameModeSetup/ZeusopsCSAT.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

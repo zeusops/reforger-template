@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9C9F54FD1CF8F689}Configs/EntityCatalog/CSAT/Arsenals/MultiLists/Clothing/Clothing_Legs_EMR_SF.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
